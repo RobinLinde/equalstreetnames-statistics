@@ -106,7 +106,15 @@ function parse_submodules(string $submodules): array
         $slashes = strpos_all($url, '/');
         $owner = substr($url, $slashes[count($slashes)-2]+1, $slashes[count($slashes)-1]-$slashes[count($slashes)-2]-1);
         $repo = str_replace('.git', '', substr($url, $slashes[count($slashes)-1]+1));
-        $submodules_output[] = array('path' => $path, 'url' => $url, 'owner' => $owner, 'repo' => $repo);
+        if (str_starts_with($path, 'cities/'))
+        {
+            $submodules_output[] = array(
+                'path' => $path,
+                'url' => $url,
+                'owner' => $owner,
+                'repo' => $repo
+            );
+        }
     }
 
     return $submodules_output;
