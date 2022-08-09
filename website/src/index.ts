@@ -38,7 +38,7 @@ function setOption(selectElement: HTMLSelectElement, value) {
       } else {
         document.getElementById("noCity").style.display = "none";
         const requestURL =
-          "https://raw.githubusercontent.com/RobinLinde/statistics/master/data/" +
+          "https://raw.githubusercontent.com/RobinLinde/equalstreetnames-statistics/master/data/" +
           city +
           ".json";
         const request = new XMLHttpRequest();
@@ -251,7 +251,7 @@ function setOption(selectElement: HTMLSelectElement, value) {
     dropdown.selectedIndex = 0;
 
     const requestURL =
-      "https://raw.githubusercontent.com/RobinLinde/statistics/master/data/cities.json";
+      "https://raw.githubusercontent.com/RobinLinde/equalstreetnames-statistics/master/data/cities.json";
     const request = new XMLHttpRequest();
     request.open("GET", requestURL, true);
     request.responseType = "json";

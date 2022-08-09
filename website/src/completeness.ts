@@ -4,7 +4,7 @@ import Chart from "../node_modules/chart.js/auto";
 import "bootstrap/js/dist/collapse";
 
 const requestURL =
-  "https://raw.githubusercontent.com/RobinLinde/statistics/master/data/cities.json";
+  "https://raw.githubusercontent.com/RobinLinde/equalstreetnames-statistics/master/data/cities.json";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL, true);
 request.responseType = "json";
@@ -24,7 +24,7 @@ request.onload = function () {
     for (let j = 0; j < cities.length; j++) {
       const currentCity = cities[j];
       const cityUrl =
-        "https://raw.githubusercontent.com/RobinLinde/statistics/master/data/" +
+        "https://raw.githubusercontent.com/RobinLinde/equalstreetnames-statistics/master/data/" +
         currentCountry +
         "/" +
         currentCity +
