@@ -8,6 +8,7 @@
         "fetch": "php scripts/fetchData.php",
         "convert": "php scripts/convert.php",
         "update-data": [
+            "Composer\\Config::disableProcessTimeout",
             "@fetch",
             "@convert"
         ]
