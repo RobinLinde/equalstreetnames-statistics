@@ -178,7 +178,7 @@ function get_cities(): string
 {
     $client = new \GuzzleHttp\Client();
     $response = $client->request(
-        'GET', 'https://raw.githubusercontent.com/EqualStreetNames/equalstreetnames/master/global/cities.json'
+        'GET', 'https://raw.githubusercontent.com/EqualStreetNames/module-global/master/cities.json'
     );
 
     $status = $response->getStatusCode();
