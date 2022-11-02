@@ -183,6 +183,12 @@
       "url": "https://bratislava.equalstreetnames.eu/"
     }
   },
+  "south-africa": {
+    "cape-town": {
+      "name": "🇿🇦 Cape Town, South Africa",
+      "url": "https://cape-town.equalstreetnames.org/"
+    }
+  },
   "spain": {
     "bilbao": {
       "name": "🇪🇸 Bilbao, Spain",
