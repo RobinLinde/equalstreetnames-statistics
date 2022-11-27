@@ -19,3 +19,13 @@ updates:
     open-pull-requests-limit: 10
     assignees:
       - "RobinLinde"
+  
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
+    commit-message:
+      prefix: "⬆️"
+    open-pull-requests-limit: 10
+    assignees:
+      - "RobinLinde"
