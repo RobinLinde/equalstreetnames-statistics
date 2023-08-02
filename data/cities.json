@@ -1,4 +1,10 @@
 {
+  "australia": {
+    "fremantle": {
+      "name": "🇦🇺 Fremantle, Australia",
+      "url": "https://fremantle.equalstreetnames.org/"
+    }
+  },
   "austria": {
     "vienna": {
       "name": "🇦🇹 Vienna, Austria",
@@ -61,6 +67,12 @@
       "url": "https://roeselare.equalstreetnames.be/"
     }
   },
+  "denmark": {
+    "copenhagen": {
+      "name": "🇩🇰 Copenhagen, Denmark",
+      "url": "https://copenhagen.equalstreetnames.eu/"
+    }
+  },
   "estonia": {
     "tallinn": {
       "name": "🇪🇪 Tallinn, Estonia",
@@ -72,6 +84,10 @@
     }
   },
   "france": {
+    "paris": {
+      "name": "🇫🇷 Paris, France",
+      "url": "https://paris.equalstreetnames.eu/"
+    },
     "saint-brieuc": {
       "name": "🇫🇷 Saint-Brieuc, France",
       "url": "https://saint-brieuc.equalstreetnames.eu/"
@@ -126,6 +142,10 @@
       "name": "🇩🇪 Munich, Germany",
       "url": "https://munich.equalstreetnames.eu/"
     },
+    "oldenburg": {
+      "name": "🇩🇪 Oldenburg, Germany",
+      "url": "https://oldenburg.equalstreetnames.eu/"
+    },
     "rastede": {
       "name": "🇩🇪 Rastede, Germany",
       "url": "https://rastede.equalstreetnames.eu/"
@@ -133,6 +153,18 @@
     "wiesbaden": {
       "name": "🇩🇪 Wiesbaden, Germany",
       "url": "https://wiesbaden.equalstreetnames.eu/"
+    }
+  },
+  "greece": {
+    "athens": {
+      "name": "🇬🇷 Athens, Greece",
+      "url": "https://athens.equalstreetnames.eu/"
+    }
+  },
+  "hungary": {
+    "budapest": {
+      "name": "🇭🇺 Budapest, Hungary",
+      "url": "https://budapest.equalstreetnames.eu/"
     }
   },
   "italy": {
@@ -185,6 +217,12 @@
     "wroclaw": {
       "name": "🇵🇱 Wrocław, Poland",
       "url": "https://wroclaw.equalstreetnames.eu/"
+    }
+  },
+  "portugal": {
+    "lisbon": {
+      "name": "🇵🇹 Lisbon, Portugal",
+      "url": "https://lisbon.equalstreetnames.eu/"
     }
   },
   "serbia": {
