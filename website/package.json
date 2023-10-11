@@ -16,6 +16,6 @@
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
     "eslint": "8.50.0",
-    "parcel": "2.9.3"
+    "parcel": "2.10.0"
   }
 }
