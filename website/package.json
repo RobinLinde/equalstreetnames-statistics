@@ -12,7 +12,7 @@
     "date-fns": "2.30.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.10.0",
+    "@parcel/transformer-sass": "2.10.2",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.7.5",
     "eslint": "8.51.0",
