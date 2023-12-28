@@ -1,6 +1,6 @@
 import { Octokit } from 'octokit';
 import * as dotenv from 'dotenv';
-import { writeFile } from 'fs/promises';
+import { readFile, writeFile } from 'fs/promises';
 import { existsSync, mkdirSync } from 'fs';
 import {
 	CityList,
@@ -227,55 +227,17 @@ async function main() {
 		const cityData = cities[country][city];
 
 		// Calculate completeness
-		const lastItem = historyItems[historyItems.length - 1];
-		const unmapped = lastItem.sources?.['-'] ?? 0;
-		let mapped = lastItem.sources?.wikidata ?? 0;
-		if (lastItem.sources?.config) {
-			mapped += lastItem.sources?.config;
-		}
-		if (lastItem.sources?.csv) {
-			mapped += lastItem.sources?.csv;
-		}
-		if (lastItem.sources?.event) {
-			mapped += lastItem.sources?.event;
-		}
-		const total = mapped + unmapped;
+		const [total, mapped, unmapped] = calculateCompleteness(historyItems[historyItems.length - 1]);
 
-		// Get boundary from the submodule, can be a GeometryCollection or MultiPolygon
-		const boundary = await (
-			await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/master/data/boundary.geojson`)
-		).json();
-
-		let multiPolygon: MultiPolygon;
-
-		// Check if the boundary is a GeometryCollection
-		if (boundary.type === 'GeometryCollection') {
-			// First item should be a MultiPolygon
-			multiPolygon = boundary.geometries[0] as MultiPolygon;
-		} else {
-			// We have a MultiPolygon
-			multiPolygon = boundary as MultiPolygon;
-		}
-
-		// Determine centerpoint (using @turf/centroid)
-		const fc: FeatureCollection = {
-			type: 'FeatureCollection',
-			features: [
-				{
-					type: 'Feature',
-					properties: {},
-					geometry: multiPolygon
-				}
-			]
-		};
-		const center = centroid(fc);
+		// Determine center
+		const center = await getCenter(owner, repo);
 
 		// Compile metadata
 		const metadata: CityMetadata = {
 			cityName: cityData.name.split(',')[0].substring(4).trim(),
 			countryId: country,
 			geo: {
-				center: [center.geometry.coordinates[0], center.geometry.coordinates[1]]
+				center: [center[0], center[1]]
 			},
 			id: city,
 			name: cityData.name,
@@ -312,7 +274,30 @@ async function main() {
 			mkdirSync(outputDir, { recursive: true });
 		}
 
-		await writeFile(`${outputDir}/${city}.json`, JSON.stringify(output, null, '\t'));
+		// Check if there is any real difference between the new and old file (apart from the update date)
+		let write = true;
+
+		// Check if the file exists
+		if (existsSync(`${outputDir}/${city}.json`)) {
+			// Read the file
+			const oldFile = JSON.parse((await readFile(`${outputDir}/${city}.json`)).toString());
+
+			// Set the update date to the same value
+			oldFile.meta.update = output.meta.update;
+
+			// Check if the files are equal
+			if (JSON.stringify(oldFile) === JSON.stringify(output)) {
+				// Files are equal, don't write
+				write = false;
+			}
+		}
+
+		// Write the file
+		if (write) {
+			await writeFile(`${outputDir}/${city}.json`, JSON.stringify(output, null, '\t'));
+		} else {
+			console.log(`No changes for ${outputDir}/${city}.json, not writing file`);
+		}
 	}
 
 	// Save metadata to a file
@@ -417,11 +402,79 @@ async function getHistory(owner: string, repo: string, path: string): Promise<Fi
 	return output;
 }
 
+/**
+ * Get the list of cities from the global repository.
+ *
+ * @returns List of cities
+ */
 async function getCities(): Promise<CityList> {
 	const response = await fetch(
 		'https://raw.githubusercontent.com/EqualStreetNames/module-global/master/cities.json'
 	);
 	return (await response.json()) as CityList;
+}
+
+/**
+ * Calculate completeness for a history item.
+ *
+ * @param historyItem
+ * @returns List of numbers: [total, mapped, unmapped]
+ */
+function calculateCompleteness(historyItem: HistoryItem): [number, number, number] {
+	const unmapped = historyItem.sources?.['-'] ?? 0;
+	let mapped = historyItem.sources?.wikidata ?? 0;
+	if (historyItem.sources?.config) {
+		mapped += historyItem.sources?.config;
+	}
+	if (historyItem.sources?.csv) {
+		mapped += historyItem.sources?.csv;
+	}
+	if (historyItem.sources?.event) {
+		mapped += historyItem.sources?.event;
+	}
+	const total = mapped + unmapped;
+
+	return [total, mapped, unmapped];
+}
+
+/**
+ * Get centerpoint for an equalstreetnames repository.
+ *
+ * @param owner Owner of the repository
+ * @param repo Repository name
+ * @returns [longitude, latitude]
+ */
+async function getCenter(owner: string, repo: string): Promise<[number, number]> {
+	// Get boundary from the submodule, can be a GeometryCollection or MultiPolygon
+	const boundary = await (
+		await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/master/data/boundary.geojson`)
+	).json();
+
+	let multiPolygon: MultiPolygon;
+
+	// Check if the boundary is a GeometryCollection
+	if (boundary.type === 'GeometryCollection') {
+		// First item should be a MultiPolygon
+		multiPolygon = boundary.geometries[0] as MultiPolygon;
+	} else {
+		// We have a MultiPolygon
+		multiPolygon = boundary as MultiPolygon;
+	}
+
+	// Determine centerpoint (using @turf/centroid)
+	const fc: FeatureCollection = {
+		type: 'FeatureCollection',
+		features: [
+			{
+				type: 'Feature',
+				properties: {},
+				geometry: multiPolygon
+			}
+		]
+	};
+	const center = centroid(fc);
+
+	return [center.geometry.coordinates[0], center.geometry.coordinates[1]];
 }
 
 main();
