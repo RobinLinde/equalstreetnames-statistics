@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { PageData } from '../$types';
 	import type { CompiledStatistics } from '$lib/@types/esn';
 	import Graph from '$lib/components/Graph.svelte';
