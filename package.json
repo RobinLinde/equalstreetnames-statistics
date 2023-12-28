@@ -1,0 +1,60 @@
+{
+  "name": "equalstreetnames-statistics",
+  "version": "1.0.0",
+  "description": "Small website showing statistics about the data and it's completeness from the EqualStreetNames project",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
+    "fetch-data": "vite-node ./scripts/fetchData.ts"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.27.4",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte": "^2.30.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^3.0.0",
+    "svelte": "^4.2.7",
+    "svelte-check": "^3.6.0",
+    "tailwindcss": "^3.4.0",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinLinde/equalstreetnames-statistics.git"
+  },
+  "keywords": [
+    "openstreetmap",
+    "wikidata"
+  ],
+  "author": "Robin van der Linde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinLinde/equalstreetnames-statistics/issues"
+  },
+  "homepage": "https://github.com/RobinLinde/equalstreetnames-statistics#readme",
+  "dependencies": {
+    "@equalstreetnames/global": "EqualStreetNames/module-global#ef87d21",
+    "@turf/centroid": "^6.5.0",
+    "@types/geojson": "^7946.0.13",
+    "chart.js": "^4.4.1",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "octokit": "^3.1.2",
+    "vite-node": "^1.0.1"
+  }
+}
