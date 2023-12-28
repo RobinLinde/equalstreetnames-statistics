@@ -29,7 +29,7 @@
 
 	onMount(() => {
 		const ctx = document.getElementById('graph') as HTMLCanvasElement;
-		const chart = new Chart(ctx, {
+		new Chart(ctx, {
 			type: 'line',
 			data: {
 				datasets: [
