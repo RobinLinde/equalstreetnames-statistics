@@ -1,21 +1,21 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: '/'
     schedule:
       interval: daily
     commit-message:
-      prefix: "⬆️"
+      prefix: '⬆️'
     open-pull-requests-limit: 10
     assignees:
-      - "RobinLinde"
-  
+      - 'RobinLinde'
+
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: '/'
     schedule:
       interval: daily
     commit-message:
-      prefix: "⬆️"
+      prefix: '⬆️'
     open-pull-requests-limit: 10
     assignees:
-      - "RobinLinde"
+      - 'RobinLinde'
