@@ -1,0 +1,795 @@
+[
+	{
+		"cityName": "Fremantle",
+		"countryId": "australia",
+		"geo": {
+			"center": [
+				115.747127876923,
+				-32.046327177183834
+			]
+		},
+		"id": "fremantle",
+		"name": "🇦🇺 Fremantle, Australia",
+		"url": "https://fremantle.equalstreetnames.org/"
+	},
+	{
+		"cityName": "Vienna",
+		"countryId": "austria",
+		"geo": {
+			"center": [
+				16.31317555795501,
+				48.207054402903914
+			]
+		},
+		"id": "vienna",
+		"name": "🇦🇹 Vienna, Austria",
+		"url": "https://vienna.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Minsk",
+		"countryId": "belarus",
+		"geo": {
+			"center": [
+				27.63482332692887,
+				53.879901509379685
+			]
+		},
+		"id": "minsk",
+		"name": "🇧🇾 Minsk, Belarus",
+		"url": "https://minsk.equalstreetnames.org/"
+	},
+	{
+		"cityName": "Antwerpen",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.422892134224841,
+				51.219965707706194
+			]
+		},
+		"id": "antwerpen",
+		"name": "🇧🇪 Antwerpen, Belgium",
+		"url": "https://antwerpen.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Braine-l'Alleud",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.322894603603602,
+				50.70374716243943
+			]
+		},
+		"id": "braine-lalleud",
+		"name": "🇧🇪 Braine-l'Alleud, Belgium",
+		"url": "https://braine-lalleud.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Brugge",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				3.210834459161153,
+				51.24193267718907
+			]
+		},
+		"id": "brugge",
+		"name": "🇧🇪 Brugge, Belgium",
+		"url": "https://brugge.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Brussels",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.329822798864403,
+				50.82885581566483
+			]
+		},
+		"id": "brussels",
+		"name": "🇧🇪 Brussels, Belgium",
+		"url": "https://equalstreetnames.brussels/"
+	},
+	{
+		"cityName": "Gent",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				3.720974457769354,
+				51.07711805657826
+			]
+		},
+		"id": "gent",
+		"name": "🇧🇪 Gent, Belgium",
+		"url": "https://gent.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Leuven",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.700252315673694,
+				50.8826514866177
+			]
+		},
+		"id": "leuven",
+		"name": "🇧🇪 Leuven, Belgium",
+		"url": "https://leuven.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Liège",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				5.588177006387427,
+				50.62379084387436
+			]
+		},
+		"id": "liege",
+		"name": "🇧🇪 Liège, Belgium",
+		"url": "https://liege.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Mons",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				3.9769324200743474,
+				50.43929383308551
+			]
+		},
+		"id": "mons",
+		"name": "🇧🇪 Mons, Belgium",
+		"url": "https://mons.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Namur",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.866548298275861,
+				50.47097900459772
+			]
+		},
+		"id": "namur",
+		"name": "🇧🇪 Namur, Belgium",
+		"url": "https://namur.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Nivelles",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.325263264968155,
+				50.59063624437361
+			]
+		},
+		"id": "nivelles",
+		"name": "🇧🇪 Nivelles, Belgium",
+		"url": "https://nivelles.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Rixensart",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				4.531229965979386,
+				50.72742598788661
+			]
+		},
+		"id": "rixensart",
+		"name": "🇧🇪 Rixensart, Belgium",
+		"url": "https://rixensart.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Roeselare",
+		"countryId": "belgium",
+		"geo": {
+			"center": [
+				3.123315781510931,
+				50.947062113121284
+			]
+		},
+		"id": "roeselare",
+		"name": "🇧🇪 Roeselare, Belgium",
+		"url": "https://roeselare.equalstreetnames.be/"
+	},
+	{
+		"cityName": "Copenhagen",
+		"countryId": "denmark",
+		"geo": {
+			"center": [
+				12.578890536674782,
+				55.67590354989803
+			]
+		},
+		"id": "copenhagen",
+		"name": "🇩🇰 Copenhagen, Denmark",
+		"url": "https://copenhagen.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Tallinn",
+		"countryId": "estonia",
+		"geo": {
+			"center": [
+				24.69899409788874,
+				59.47567715840692
+			]
+		},
+		"id": "tallinn",
+		"name": "🇪🇪 Tallinn, Estonia",
+		"url": "https://tallinn.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Tartu",
+		"countryId": "estonia",
+		"geo": {
+			"center": [
+				26.724293993877552,
+				58.369623021224506
+			]
+		},
+		"id": "tartu",
+		"name": "🇪🇪 Tartu, Estonia",
+		"url": "https://tartu.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Paris",
+		"countryId": "france",
+		"geo": {
+			"center": [
+				2.3658216988043486,
+				48.848769804456445
+			]
+		},
+		"id": "paris",
+		"name": "🇫🇷 Paris, France",
+		"url": "https://paris.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Saint-Brieuc",
+		"countryId": "france",
+		"geo": {
+			"center": [
+				-2.7620530986494347,
+				48.51473450352323
+			]
+		},
+		"id": "saint-brieuc",
+		"name": "🇫🇷 Saint-Brieuc, France",
+		"url": "https://saint-brieuc.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Berlin",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				13.431244807924775,
+				52.51519614108471
+			]
+		},
+		"id": "berlin",
+		"name": "🇩🇪 Berlin, Germany",
+		"url": "https://equalstreetnames-berlin.openstreetmap.de/"
+	},
+	{
+		"cityName": "Brandenburg an der Havel",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				12.562339334691009,
+				52.44888909206465
+			]
+		},
+		"id": "brandenburg-an-der-havel",
+		"name": "🇩🇪 Brandenburg an der Havel, Germany",
+		"url": "https://brandenburg-an-der-havel.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Dresden",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				13.764647477651994,
+				51.071467142355644
+			]
+		},
+		"id": "dresden",
+		"name": "🇩🇪 Dresden, Germany",
+		"url": "https://dresden.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Freiburg im Breisgau",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				7.799451305393585,
+				47.990089685519834
+			]
+		},
+		"id": "freiburg-im-breisgau",
+		"name": "🇩🇪 Freiburg im Breisgau, Germany",
+		"url": "https://freiburg-im-breisgau.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Freising",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				11.728051417065064,
+				48.40028691978756
+			]
+		},
+		"id": "freising",
+		"name": "🇩🇪 Freising, Germany",
+		"url": "https://freising.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Halle (Saale)",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				11.968666641732282,
+				51.476695268175845
+			]
+		},
+		"id": "halle-saale",
+		"name": "🇩🇪 Halle (Saale), Germany",
+		"url": "https://halle-saale.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Hannover",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				9.694539582190249,
+				52.38755057439161
+			]
+		},
+		"id": "hannover",
+		"name": "🇩🇪 Hannover, Germany",
+		"url": "https://hannover.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Kaiserslautern",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				7.759347260056131,
+				49.434930194200206
+			]
+		},
+		"id": "kaiserslautern",
+		"name": "🇩🇪 Kaiserslautern, Germany",
+		"url": "https://kaiserslautern.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Leipzig",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				12.365679527090526,
+				51.32860168424319
+			]
+		},
+		"id": "leipzig",
+		"name": "🇩🇪 Leipzig, Germany",
+		"url": "https://leipzig.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Frankfurt am Main",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				8.633196787131736,
+				50.12056438052817
+			]
+		},
+		"id": "frankfurt-am-main",
+		"name": "🇩🇪 Frankfurt am Main, Germany",
+		"url": "https://frankfurt.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Mainz",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				8.22230143488889,
+				49.96114237711108
+			]
+		},
+		"id": "mainz",
+		"name": "🇩🇪 Mainz, Germany",
+		"url": "https://mainz.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Munich",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				11.551695449936343,
+				48.14904166951184
+			]
+		},
+		"id": "munich",
+		"name": "🇩🇪 Munich, Germany",
+		"url": "https://munich.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Oldenburg",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				8.227613795534515,
+				53.14365312368068
+			]
+		},
+		"id": "oldenburg",
+		"name": "🇩🇪 Oldenburg, Germany",
+		"url": "https://oldenburg.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Rastede",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				8.197244428392251,
+				53.26763870889397
+			]
+		},
+		"id": "rastede",
+		"name": "🇩🇪 Rastede, Germany",
+		"url": "https://rastede.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Wiesbaden",
+		"countryId": "germany",
+		"geo": {
+			"center": [
+				8.29272522749433,
+				50.0798826790816
+			]
+		},
+		"id": "wiesbaden",
+		"name": "🇩🇪 Wiesbaden, Germany",
+		"url": "https://wiesbaden.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Athens",
+		"countryId": "greece",
+		"geo": {
+			"center": [
+				23.73625925010225,
+				37.98600587116563
+			]
+		},
+		"id": "athens",
+		"name": "🇬🇷 Athens, Greece",
+		"url": "https://athens.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Budapest",
+		"countryId": "hungary",
+		"geo": {
+			"center": [
+				19.046134879264844,
+				47.473137274929364
+			]
+		},
+		"id": "budapest",
+		"name": "🇭🇺 Budapest, Hungary",
+		"url": "https://budapest.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Bolzano",
+		"countryId": "italy",
+		"geo": {
+			"center": [
+				11.347658032672479,
+				46.48679236693097
+			]
+		},
+		"id": "bolzano",
+		"name": "🇮🇹 Bolzano, Italy",
+		"url": "https://bolzano.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Luxembourg",
+		"countryId": "luxembourg",
+		"geo": {
+			"center": [
+				6.128029890776261,
+				49.608359310867606
+			]
+		},
+		"id": "luxembourg",
+		"name": "🇱🇺 Luxembourg, Luxembourg",
+		"url": "https://luxembourg.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Tivat",
+		"countryId": "montenegro",
+		"geo": {
+			"center": [
+				18.687455321357316,
+				42.4141983790261
+			]
+		},
+		"id": "tivat",
+		"name": "🇲🇪 Tivat, Montenegro",
+		"url": "https://tivat.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Assen",
+		"countryId": "netherlands",
+		"geo": {
+			"center": [
+				6.5757108228248695,
+				52.99033157039551
+			]
+		},
+		"id": "assen",
+		"name": "🇳🇱 Assen, The Netherlands",
+		"url": "https://assen.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Groningen",
+		"countryId": "netherlands",
+		"geo": {
+			"center": [
+				6.554820060630807,
+				53.21735614853431
+			]
+		},
+		"id": "groningen",
+		"name": "🇳🇱 Groningen, The Netherlands",
+		"url": "https://groningen.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Leiden",
+		"countryId": "netherlands",
+		"geo": {
+			"center": [
+				4.487305908034185,
+				52.15733092222221
+			]
+		},
+		"id": "leiden",
+		"name": "🇳🇱 Leiden, The Netherlands",
+		"url": "https://leiden.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "San Pablo",
+		"countryId": "philippines",
+		"geo": {
+			"center": [
+				121.31607313808477,
+				14.048981031625827
+			]
+		},
+		"id": "sanpablo",
+		"name": "🇵🇭 San Pablo, Philippines",
+		"url": "https://sanpablo.equalstreetnames.org/"
+	},
+	{
+		"cityName": "Chorzów",
+		"countryId": "poland",
+		"geo": {
+			"center": [
+				18.962870477539056,
+				50.284201090625
+			]
+		},
+		"id": "chorzow",
+		"name": "🇵🇱 Chorzów, Poland",
+		"url": "https://chorzow.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Warsaw",
+		"countryId": "poland",
+		"geo": {
+			"center": [
+				20.994687344360027,
+				52.22452762285214
+			]
+		},
+		"id": "warsaw",
+		"name": "🇵🇱 Warsaw, Poland",
+		"url": "https://warsaw.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Wrocław",
+		"countryId": "poland",
+		"geo": {
+			"center": [
+				17.002087337770025,
+				51.13261827147397
+			]
+		},
+		"id": "wroclaw",
+		"name": "🇵🇱 Wrocław, Poland",
+		"url": "https://wroclaw.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Lisbon",
+		"countryId": "portugal",
+		"geo": {
+			"center": [
+				-9.147245117006005,
+				38.73747856011978
+			]
+		},
+		"id": "lisbon",
+		"name": "🇵🇹 Lisbon, Portugal",
+		"url": "https://lisbon.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Bucharest",
+		"countryId": "romania",
+		"geo": {
+			"center": [
+				26.098295787731487,
+				44.451041799922855
+			]
+		},
+		"id": "bucharest",
+		"name": "🇷🇴 Bucharest, Romania",
+		"url": "https://bucharest.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Belgrade",
+		"countryId": "serbia",
+		"geo": {
+			"center": [
+				20.46623961129148,
+				44.778566679003724
+			]
+		},
+		"id": "belgrade",
+		"name": "🇷🇸 Belgrade, Serbia",
+		"url": "https://naziviulica.openstreetmap.rs/"
+	},
+	{
+		"cityName": "Bratislava",
+		"countryId": "slovakia",
+		"geo": {
+			"center": [
+				17.138049589483845,
+				48.14509911302005
+			]
+		},
+		"id": "bratislava",
+		"name": "🇸🇰 Bratislava, Slovakia",
+		"url": "https://bratislava.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Cape Town",
+		"countryId": "south-africa",
+		"geo": {
+			"center": [
+				18.528309689044786,
+				-34.060013572369066
+			]
+		},
+		"id": "cape-town",
+		"name": "🇿🇦 Cape Town, South Africa",
+		"url": "https://cape-town.equalstreetnames.org/"
+	},
+	{
+		"cityName": "Bilbao",
+		"countryId": "spain",
+		"geo": {
+			"center": [
+				-2.94350239518987,
+				43.266655446329125
+			]
+		},
+		"id": "bilbao",
+		"name": "🇪🇸 Bilbao, Spain",
+		"url": "https://bilbao.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Madrid",
+		"countryId": "spain",
+		"geo": {
+			"center": [
+				-3.6803978708904146,
+				40.46936062014844
+			]
+		},
+		"id": "madrid",
+		"name": "🇪🇸 Madrid, Spain",
+		"url": "https://madrid.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Basel",
+		"countryId": "switzerland",
+		"geo": {
+			"center": [
+				7.592258408108112,
+				47.55803297953669
+			]
+		},
+		"id": "basel",
+		"name": "🇨🇭 Basel, Switzerland",
+		"url": "https://basel.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Bern",
+		"countryId": "switzerland",
+		"geo": {
+			"center": [
+				7.406877009722221,
+				46.94388076358025
+			]
+		},
+		"id": "bern",
+		"name": "🇨🇭 Bern, Switzerland",
+		"url": "https://bern.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Lausanne",
+		"countryId": "switzerland",
+		"geo": {
+			"center": [
+				6.641927164638777,
+				46.54712275769962
+			]
+		},
+		"id": "lausanne",
+		"name": "🇨🇭 Lausanne, Switzerland",
+		"url": "https://lausanne.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "St. Gallen",
+		"countryId": "switzerland",
+		"geo": {
+			"center": [
+				9.372809724712651,
+				47.42216939013409
+			]
+		},
+		"id": "stgallen",
+		"name": "🇨🇭 St. Gallen, Switzerland",
+		"url": "https://stgallen.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Zurich",
+		"countryId": "switzerland",
+		"geo": {
+			"center": [
+				8.543673546136077,
+				47.37773736836973
+			]
+		},
+		"id": "zurich",
+		"name": "🇨🇭 Zurich, Switzerland",
+		"url": "https://zurich.equalstreetnames.eu/"
+	},
+	{
+		"cityName": "Chester-le-Street",
+		"countryId": "united-kingdom",
+		"geo": {
+			"center": [
+				-1.5871827136690673,
+				54.852196249352524
+			]
+		},
+		"id": "chester-le-street",
+		"name": "🇬🇧 Chester-le-Street, United Kingdom",
+		"url": "https://chester-le-street.equalstreetnames.org/"
+	},
+	{
+		"cityName": "San Francisco",
+		"countryId": "usa",
+		"geo": {
+			"center": [
+				-122.57356225313745,
+				37.81046475901203
+			]
+		},
+		"id": "sanfrancisco",
+		"name": "🇺🇸 San Francisco, USA",
+		"url": "https://sanfrancisco.equalstreetnames.org/"
+	}
+]
