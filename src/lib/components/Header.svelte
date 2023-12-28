@@ -8,9 +8,9 @@
 			<h1>EqualStreetNames Statistics</h1>
 		</a>
 	</span>
-	<!-- <span class="right">
+	<span class="right">
 		<NavBar />
-	</span> -->
+	</span>
 </section>
 
 <style lang="postcss">

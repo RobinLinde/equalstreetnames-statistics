@@ -1,20 +1,16 @@
 <script lang="ts">
-	export let city: {
-		country: string;
-		city: string;
-		name: string;
-		strippedName: string;
-		url: string;
-	};
+	import type { CityMetadata } from '$lib/@types/esn';
+
+	export let city: CityMetadata;
 	export let statistics: boolean = false;
 </script>
 
 <li class="city">
 	{#if statistics}
-		<span><a href={`/${city.country}/${city.city}`}>{city.strippedName}</a></span>
+		<span><a href={`/${city.countryId}/${city.id}`}>{city.cityName}</a></span>
 		<span><a href={city.url}>🔗</a></span>
 	{:else}
-		<span><a href={city.url}>{city.strippedName}</a></span>
+		<span><a href={city.url}>{city.cityName}</a></span>
 	{/if}
 </li>
 

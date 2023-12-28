@@ -8,11 +8,6 @@
 	export let data: PageData;
 
 	const compiledStats: CompiledStatistics = data.statistics;
-
-	// Log data onMount
-	onMount(() => {
-		console.log(data);
-	});
 </script>
 
 <div class="content">

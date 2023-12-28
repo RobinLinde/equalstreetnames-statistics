@@ -1,14 +1,13 @@
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
-import cities from '@equalstreetnames/global/cities.json';
+import cities from './../../../data/metadata.json';
+import type { CityMetadata } from '$lib/@types/esn';
+
+const cityMeta = cities as CityMetadata[];
 
 export function load({ params }: PageLoad) {
-	const output = {
-		[params.country]: cities[params.country]
-	};
-
-	if (!output[params.country]) {
-		error(404, 'Country not found');
-	}
-	return output;
+	const cities = cityMeta.filter((city) => {
+		return city.countryId === params.country;
+	});
+	return { cities };
 }
