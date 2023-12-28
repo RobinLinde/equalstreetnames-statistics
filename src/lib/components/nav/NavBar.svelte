@@ -4,7 +4,8 @@
 
 <nav>
 	<ul>
-		<NavItem page="/" name="Go back" />
+		<NavItem page="/" name="Overview" />
+		<NavItem page="/completeness" name="Completeness" />
 	</ul>
 </nav>
 

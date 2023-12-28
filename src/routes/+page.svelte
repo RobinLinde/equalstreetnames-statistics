@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>EqualStreetNames</title>
+	<title>EqualStreetNames Statistics</title>
 </svelte:head>
 
 <Counter />
@@ -17,6 +17,11 @@
 <p>
 	For more information visit the
 	<a href="https://github.com/EqualStreetNames/equalstreetnames">GitHub repository</a>
+</p>
+<p>
+	After clicking on one of the cities below you can view some statistics about the data completeness
+	over time. For comparison, there also is a graph showing the completeness of all cities in one
+	view.
 </p>
 
 <CityList />

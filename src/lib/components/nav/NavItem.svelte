@@ -1,34 +1,10 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
-
 	export let page: string;
 	export let name: string;
-
-	const href = `/${page}`;
-	const isExternal = page.startsWith('http');
 </script>
 
 <li>
-	<span
-		on:click={() => {
-			if (isExternal) {
-				window.open(page, '_blank');
-			} else {
-				goto(href);
-			}
-		}}
-		on:keypress={(e) => {
-			if (e.key === 'Enter') {
-				if (isExternal) {
-					window.open(page, '_blank');
-				} else {
-					goto(href);
-				}
-			}
-		}}
-		role="button"
-		tabindex="0">{name}</span
-	>
+	<a href={page}>{name}</a>
 </li>
 
 <style lang="postcss">
@@ -40,7 +16,7 @@
 		}
 	}
 
-	span:focus {
+	a:focus {
 		@apply outline-dashed outline-2 outline-orange-400 rounded-md;
 	}
 </style>

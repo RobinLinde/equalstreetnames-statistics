@@ -2,7 +2,13 @@ import { Octokit } from 'octokit';
 import * as dotenv from 'dotenv';
 import { writeFile } from 'fs/promises';
 import { existsSync, mkdirSync } from 'fs';
-import { CityList, CityMetadata, CompiledStatistics, HistoryItem } from '../src/lib/@types/esn';
+import {
+	CityList,
+	CityMetadata,
+	CompiledCompleteness,
+	CompiledStatistics,
+	HistoryItem
+} from '../src/lib/@types/esn';
 import centroid from '@turf/centroid';
 import { FeatureCollection } from '@turf/helpers';
 import type { MultiPolygon } from 'geojson';
@@ -92,6 +98,12 @@ async function main() {
 
 	const cities = await getCities();
 	const cityMeta: CityMetadata[] = [];
+	const completeness: CompiledCompleteness = {
+		meta: {
+			update: new Date().toISOString()
+		},
+		cities: []
+	};
 
 	// Loop through each submodule
 	for (const submodule of submodules) {
@@ -214,6 +226,21 @@ async function main() {
 		// Get some metadata for the city to write together with the statistics (as well as an overview file)
 		const cityData = cities[country][city];
 
+		// Calculate completeness
+		const lastItem = historyItems[historyItems.length - 1];
+		const unmapped = lastItem.sources?.['-'] ?? 0;
+		let mapped = lastItem.sources?.wikidata ?? 0;
+		if (lastItem.sources?.config) {
+			mapped += lastItem.sources?.config;
+		}
+		if (lastItem.sources?.csv) {
+			mapped += lastItem.sources?.csv;
+		}
+		if (lastItem.sources?.event) {
+			mapped += lastItem.sources?.event;
+		}
+		const total = mapped + unmapped;
+
 		// Get boundary from the submodule, can be a GeometryCollection or MultiPolygon
 		const boundary = await (
 			await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/master/data/boundary.geojson`)
@@ -258,6 +285,17 @@ async function main() {
 		// Add metadata to the list
 		cityMeta.push(metadata);
 
+		// Push completeness to the list
+		completeness.cities.push({
+			city: metadata,
+			total,
+			unmapped,
+			unmappedPercentage: (unmapped / total) * 100,
+			mapped,
+			mappedPercentage: (mapped / total) * 100
+		});
+
+		// Create output object, and write it to a file
 		const output: CompiledStatistics = {
 			meta: {
 				...metadata,
@@ -280,6 +318,10 @@ async function main() {
 	// Save metadata to a file
 	console.log(`Writing ${cityMeta.length} items to ${outDir}/metadata.json`);
 	await writeFile(`${outDir}/metadata.json`, JSON.stringify(cityMeta, null, '\t'));
+
+	// Save completeness to a file
+	console.log(`Writing ${completeness.cities.length} items to ${outDir}/completeness.json`);
+	await writeFile(`${outDir}/completeness.json`, JSON.stringify(completeness, null, '\t'));
 }
 
 /**
