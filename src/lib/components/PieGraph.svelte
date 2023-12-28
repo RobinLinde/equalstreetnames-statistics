@@ -22,7 +22,7 @@
 
 	onMount(() => {
 		const ctx = document.getElementById('piegraph') as HTMLCanvasElement;
-		const chart = new Chart(ctx, {
+		new Chart(ctx, {
 			type: 'pie',
 			data: {
 				labels: ['Etymology known', 'Etymology unknown'],

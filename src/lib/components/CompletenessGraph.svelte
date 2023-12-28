@@ -16,7 +16,7 @@
 	onMount(() => {
 		console.log(graphData);
 		const ctx = document.getElementById('piegraph') as HTMLCanvasElement;
-		const chart = new Chart(ctx, {
+		new Chart(ctx, {
 			type: 'bar',
 			data: {
 				datasets: [
