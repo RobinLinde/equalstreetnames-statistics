@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { CityList, CityMetadata } from '$lib/@types/esn';
+	import type { CityMetadata } from '$lib/@types/esn';
 	import cityMeta from './../../../data/metadata.json';
 	import CityLink from './CityLink.svelte';
 
