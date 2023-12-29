@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { CityMetadata } from '$lib/@types/esn';
+	import { createEventDispatcher } from 'svelte';
 	import cityMeta from './../../../data/metadata.json';
 	import CityLink from './CityLink.svelte';
 
@@ -7,6 +8,9 @@
 
 	export let citiesfile: CityMetadata[] = cities;
 	export let statistics: boolean = true;
+	export let activeCity: CityMetadata | null = null;
+
+	const dispatcher = createEventDispatcher();
 
 	const countries = citiesfile
 		.map((city) => {
@@ -43,7 +47,14 @@
 
 			<ul>
 				{#each country.cities as city}
-					<CityLink {city} {statistics} />
+					<CityLink
+						{city}
+						{statistics}
+						active={city === activeCity}
+						on:cityHover={(e) => {
+							dispatcher('cityHover', e.detail);
+						}}
+					/>
 				{/each}
 			</ul>
 		</span>

@@ -31,7 +31,7 @@
 	}
 
 	main {
-		@apply p-16 text-lg lg:px-32 xl:px-64 flex-grow;
+		@apply p-16 text-lg lg:px-32 xl:px-64 flex flex-grow;
 		@apply bg-gray-100 dark:bg-slate-900 dark:text-white;
 	}
 
