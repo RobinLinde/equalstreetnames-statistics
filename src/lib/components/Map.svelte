@@ -151,4 +151,12 @@
 	#map {
 		@apply h-full;
 	}
+
+	:global(.maplibregl-popup-content) {
+		@apply p-2 dark:bg-slate-600;
+	}
+
+	:global(.maplibre-gl-tip) {
+		@apply hidden;
+	}
 </style>
