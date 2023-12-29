@@ -63,7 +63,7 @@
 
 <style lang="postcss">
 	.list {
-		@apply flex flex-row flex-wrap;
+		@apply flex flex-row flex-wrap w-full;
 	}
 
 	.country {

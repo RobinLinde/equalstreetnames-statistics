@@ -7,8 +7,11 @@
 	import centroid from '@turf/centroid';
 	import type { CityMetadata } from '$lib/@types/esn';
 	import type { FeatureCollection } from 'geojson';
+	import cityMeta from './../../../data/metadata.json';
 
-	export let cities: CityMetadata[];
+	const citiesFile = cityMeta as CityMetadata[];
+	export let cities: CityMetadata[] = citiesFile;
+	export let statistics: boolean = true;
 
 	let map: Map;
 
@@ -36,7 +39,19 @@
 
 	// Determine the bounding box and centroid of the GeoJSON
 	const bb = bbox(geojson);
-	const center = centroid(geojson);
+	const center: [number, number] = [0, 0];
+	let zoom = 7;
+	if (cities === citiesFile) {
+		// Global map
+		center[0] = 0;
+		center[1] = 0;
+		zoom = 1;
+	} else {
+		// Country map
+		const centerPoint = centroid(geojson);
+		center[0] = centerPoint.geometry.coordinates[0];
+		center[1] = centerPoint.geometry.coordinates[1];
+	}
 
 	// Create function to change the active city
 	export function changeActiveCity(city: CityMetadata | null) {
@@ -72,8 +87,8 @@
 		map = new Map({
 			container: 'map',
 			style: `https://api.maptiler.com/maps/basic-v2/style.json?key=${PUBLIC_MAPTILER_TOKEN}`,
-			center: [center.geometry.coordinates[0], center.geometry.coordinates[1]],
-			zoom: 7
+			center,
+			zoom
 		});
 
 		map.on('load', () => {
@@ -140,6 +155,22 @@
 				map.getCanvas().style.cursor = '';
 				dispatch('cityHover', null);
 				popup.remove();
+			});
+
+			// Add click event to map
+			map.on('click', 'cities', (e) => {
+				if (e.features) {
+					const description = e.features[0].properties.title;
+					const city = cities.find((city) => city.name === description);
+
+					if (city) {
+						if (statistics) {
+							window.location.href = `/${city.countryId}/${city.id}`;
+						} else {
+							window.location.href = city.url;
+						}
+					}
+				}
 			});
 		});
 	});

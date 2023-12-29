@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
+	import type { CityMetadata } from '$lib/@types/esn';
 	import CityList from '$lib/components/CityList.svelte';
 	import Counter from '$lib/components/Counter.svelte';
+	import Map from '$lib/components/Map.svelte';
+
+	let activeCity: CityMetadata | null = null;
+	let map: Map;
 </script>
 
 <svelte:head>
@@ -25,5 +30,37 @@
 		cities in one view.
 	</p>
 
-	<CityList />
+	<div class="content">
+		<div class="list">
+			<CityList
+				{activeCity}
+				on:cityHover={(e) => {
+					activeCity = e.detail;
+					map.changeActiveCity(e.detail);
+				}}
+			/>
+		</div>
+		<div class="map">
+			<Map
+				on:cityHover={(e) => {
+					activeCity = e.detail;
+				}}
+				bind:this={map}
+			/>
+		</div>
+	</div>
+
+	<style lang="postcss">
+		.content {
+			@apply flex flex-row;
+		}
+
+		.list {
+			@apply w-1/2;
+		}
+
+		.map {
+			@apply w-1/2;
+		}
+	</style>
 </div>
