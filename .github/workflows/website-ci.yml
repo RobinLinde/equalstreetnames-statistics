@@ -25,3 +25,5 @@ jobs:
 
       - name: Build website
         run: npm run build
+        env:
+          PUBLIC_MAPTILER_TOKEN: ${{ secrets.PUBLIC_MAPTILER_TOKEN }}
