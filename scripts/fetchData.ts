@@ -104,6 +104,7 @@ async function main() {
 		},
 		cities: []
 	};
+	let writeCompleteness = false;
 
 	// Loop through each submodule
 	for (const submodule of submodules) {
@@ -295,6 +296,7 @@ async function main() {
 		// Write the file
 		if (write) {
 			await writeFile(`${outputDir}/${city}.json`, JSON.stringify(output, null, '\t'));
+			writeCompleteness = true;
 		} else {
 			console.log(`No changes for ${outputDir}/${city}.json, not writing file`);
 		}
@@ -304,9 +306,13 @@ async function main() {
 	console.log(`Writing ${cityMeta.length} items to ${outDir}/metadata.json`);
 	await writeFile(`${outDir}/metadata.json`, JSON.stringify(cityMeta, null, '\t'));
 
-	// Save completeness to a file
-	console.log(`Writing ${completeness.cities.length} items to ${outDir}/completeness.json`);
-	await writeFile(`${outDir}/completeness.json`, JSON.stringify(completeness, null, '\t'));
+	// Save completeness to a file, if any of the cities changed
+	if (writeCompleteness) {
+		await writeFile(`${outDir}/completeness.json`, JSON.stringify(completeness, null, '\t'));
+		console.log(`Writing ${completeness.cities.length} items to ${outDir}/completeness.json`);
+	} else {
+		console.log(`No changes for ${outDir}/completeness.json, not writing file`);
+	}
 }
 
 /**
