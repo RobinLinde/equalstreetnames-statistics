@@ -25,14 +25,14 @@
 		@apply w-full h-auto;
 	}
 	.content {
-		@apply flex flex-row w-full h-full;
+		@apply flex flex-col xl:flex-row w-full h-full;
 	}
 
 	.graph {
-		@apply w-1/2 h-full;
+		@apply w-full xl:w-2/3;
 	}
 
 	.piegraph {
-		@apply w-1/2 h-1/2;
+		@apply min-h-96 w-full xl:w-1/3;
 	}
 </style>

@@ -113,16 +113,20 @@
 				}
 			});
 
-			if (cities.length > 1) {
-				map.fitBounds(new LngLatBounds([bb[0], bb[1]], [bb[2], bb[3]]), {
-					padding: 50
-				});
-			} else {
-				map.flyTo({
-					center: [cities[0].geo.center[0], cities[0].geo.center[1]],
-					zoom: 10
-				});
+			function fitBounds() {
+				if (cities.length > 1) {
+					map.fitBounds(new LngLatBounds([bb[0], bb[1]], [bb[2], bb[3]]), {
+						padding: 50
+					});
+				} else {
+					map.flyTo({
+						center: [cities[0].geo.center[0], cities[0].geo.center[1]],
+						zoom: 10
+					});
+				}
 			}
+
+			fitBounds();
 
 			const popup = new Popup({
 				closeButton: false,
@@ -172,6 +176,12 @@
 					}
 				}
 			});
+
+			// Also listen for screen resize events
+			window.addEventListener('resize', () => {
+				map.resize();
+				fitBounds();
+			});
 		});
 	});
 </script>
@@ -180,7 +190,7 @@
 
 <style lang="postcss">
 	#map {
-		@apply h-full;
+		@apply w-full min-h-96 h-full;
 	}
 
 	:global(.maplibregl-popup-content) {

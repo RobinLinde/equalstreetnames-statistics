@@ -49,18 +49,18 @@
 			/>
 		</div>
 	</div>
-
-	<style lang="postcss">
-		.content {
-			@apply flex flex-row;
-		}
-
-		.list {
-			@apply w-1/2;
-		}
-
-		.map {
-			@apply w-1/2;
-		}
-	</style>
 </div>
+
+<style lang="postcss">
+	.content {
+		@apply flex flex-col xl:flex-row;
+	}
+
+	.list {
+		@apply w-full xl:w-1/3;
+	}
+
+	.map {
+		@apply min-h-96 w-full xl:w-2/3;
+	}
+</style>

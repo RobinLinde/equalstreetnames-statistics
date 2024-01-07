@@ -16,38 +16,47 @@
 	<title>EqualStreetNames Statistics</title>
 </svelte:head>
 
-{#if cities.length > 0}
-	<div class="content">
-		<div class="list">
-			<CityList
-				citiesfile={cities}
-				{activeCity}
-				on:cityHover={(e) => {
-					activeCity = e.detail;
-					map.changeActiveCity(e.detail);
-				}}
-			/>
+<div class="wrapper">
+	{#if cities.length > 0}
+		<div class="content">
+			<div class="list">
+				<CityList
+					citiesfile={cities}
+					{activeCity}
+					on:cityHover={(e) => {
+						activeCity = e.detail;
+						map.changeActiveCity(e.detail);
+					}}
+				/>
+			</div>
+			<div class="map">
+				<Map
+					{cities}
+					on:cityHover={(e) => {
+						activeCity = e.detail;
+					}}
+					bind:this={map}
+				/>
+			</div>
 		</div>
-		<div class="map">
-			<Map
-				{cities}
-				on:cityHover={(e) => {
-					activeCity = e.detail;
-				}}
-				bind:this={map}
-			/>
-		</div>
-	</div>
-{:else}
-	<p>Country not found</p>
-{/if}
+	{:else}
+		<p>Country not found</p>
+	{/if}
+</div>
 
 <style lang="postcss">
+	.wrapper {
+		@apply w-full h-auto;
+	}
 	.content {
-		@apply flex flex-row flex-1;
+		@apply flex flex-col xl:flex-row;
+	}
+
+	.list {
+		@apply w-full xl:w-1/3;
 	}
 
 	.map {
-		@apply flex-1;
+		@apply min-h-96 w-full xl:w-2/3;
 	}
 </style>
