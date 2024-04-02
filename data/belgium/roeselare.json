@@ -11,7 +11,7 @@
 		"id": "roeselare",
 		"name": "🇧🇪 Roeselare, Belgium",
 		"url": "https://roeselare.equalstreetnames.be/",
-		"update": "2023-12-28T20:31:47.365Z"
+		"update": "2024-04-02T05:13:28.599Z"
 	},
 	"statistics": [
 		{
@@ -192,6 +192,46 @@
 				"csv": 0,
 				"config": 0,
 				"-": 704
+			}
+		},
+		{
+			"date": "2024-03-18T17:08:58Z",
+			"values": {
+				"F": 5,
+				"M": 28,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 740
+			},
+			"sources": {
+				"wikidata": 68,
+				"csv": 0,
+				"config": 0,
+				"-": 705
+			}
+		},
+		{
+			"date": "2024-04-01T07:36:25Z",
+			"values": {
+				"F": 5,
+				"M": 28,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 740
+			},
+			"sources": {
+				"wikidata": 68,
+				"csv": 0,
+				"config": 0,
+				"-": 705
 			}
 		}
 	]

@@ -11,7 +11,7 @@
 		"id": "frankfurt-am-main",
 		"name": "🇩🇪 Frankfurt am Main, Germany",
 		"url": "https://frankfurt.equalstreetnames.eu/",
-		"update": "2023-12-28T20:32:54.836Z"
+		"update": "2024-04-02T05:14:33.259Z"
 	},
 	"statistics": [
 		{
@@ -232,6 +232,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 2647
+			}
+		},
+		{
+			"date": "2024-03-19T20:39:31Z",
+			"values": {
+				"F": 90,
+				"M": 730,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 2,
+				"?": 0,
+				"-": 2738
+			},
+			"sources": {
+				"wikidata": 910,
+				"csv": 0,
+				"config": 0,
+				"-": 2650
 			}
 		}
 	]

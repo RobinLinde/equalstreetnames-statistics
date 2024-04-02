@@ -11,7 +11,7 @@
 		"id": "fremantle",
 		"name": "🇦🇺 Fremantle, Australia",
 		"url": "https://fremantle.equalstreetnames.org/",
-		"update": "2023-12-28T20:30:09.766Z"
+		"update": "2024-04-02T05:11:58.876Z"
 	},
 	"statistics": [
 		{
@@ -292,6 +292,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 455
+			}
+		},
+		{
+			"date": "2024-03-18T21:17:00Z",
+			"values": {
+				"F": 5,
+				"M": 53,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 475
+			},
+			"sources": {
+				"wikidata": 79,
+				"csv": 0,
+				"config": 0,
+				"-": 454
 			}
 		}
 	]

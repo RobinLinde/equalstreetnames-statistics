@@ -11,7 +11,7 @@
 		"id": "bilbao",
 		"name": "🇪🇸 Bilbao, Spain",
 		"url": "https://bilbao.equalstreetnames.eu/",
-		"update": "2023-12-28T20:34:37.724Z"
+		"update": "2024-04-02T05:16:12.768Z"
 	},
 	"statistics": [
 		{
@@ -472,6 +472,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1117
+			}
+		},
+		{
+			"date": "2024-03-19T20:26:26Z",
+			"values": {
+				"F": 11,
+				"M": 125,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1221
+			},
+			"sources": {
+				"wikidata": 246,
+				"csv": 0,
+				"config": 0,
+				"-": 1111
 			}
 		}
 	]

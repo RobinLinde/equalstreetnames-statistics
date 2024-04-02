@@ -11,49 +11,9 @@
 		"id": "saint-brieuc",
 		"name": "🇫🇷 Saint-Brieuc, France",
 		"url": "https://saint-brieuc.equalstreetnames.eu/",
-		"update": "2023-12-28T20:32:02.682Z"
+		"update": "2024-04-02T05:13:43.496Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-07-17T02:47:36Z",
-			"values": {
-				"F": 5,
-				"M": 52,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 814
-			},
-			"sources": {
-				"wikidata": 101,
-				"csv": 0,
-				"config": 0,
-				"-": 771
-			}
-		},
-		{
-			"date": "2021-07-24T02:47:44Z",
-			"values": {
-				"F": 5,
-				"M": 52,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 814
-			},
-			"sources": {
-				"wikidata": 101,
-				"csv": 0,
-				"config": 0,
-				"-": 771
-			}
-		},
 		{
 			"date": "2021-07-31T02:48:03Z",
 			"values": {
@@ -609,6 +569,46 @@
 			},
 			"sources": {
 				"wikidata": 102,
+				"csv": 0,
+				"config": 0,
+				"-": 776
+			}
+		},
+		{
+			"date": "2024-03-18T21:42:23Z",
+			"values": {
+				"F": 5,
+				"M": 53,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 820
+			},
+			"sources": {
+				"wikidata": 103,
+				"csv": 0,
+				"config": 0,
+				"-": 776
+			}
+		},
+		{
+			"date": "2024-04-02T02:28:55Z",
+			"values": {
+				"F": 5,
+				"M": 53,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 820
+			},
+			"sources": {
+				"wikidata": 103,
 				"csv": 0,
 				"config": 0,
 				"-": 776
