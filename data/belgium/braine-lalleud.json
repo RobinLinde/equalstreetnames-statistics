@@ -11,7 +11,7 @@
 		"id": "braine-lalleud",
 		"name": "🇧🇪 Braine-l'Alleud, Belgium",
 		"url": "https://braine-lalleud.equalstreetnames.be/",
-		"update": "2024-04-02T05:12:17.809Z"
+		"update": "2024-05-02T05:14:13.791Z"
 	},
 	"statistics": [
 		{
@@ -109,26 +109,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 559
-			}
-		},
-		{
-			"date": "2022-03-01T06:18:55Z",
-			"values": {
-				"F": 11,
-				"M": 85,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 570
-			},
-			"sources": {
-				"wikidata": 58,
-				"csv": 39,
-				"config": 0,
-				"-": 569
 			}
 		},
 		{
@@ -709,6 +689,26 @@
 				"csv": 39,
 				"config": 0,
 				"-": 551
+			}
+		},
+		{
+			"date": "2024-05-01T06:11:16Z",
+			"values": {
+				"F": 11,
+				"M": 85,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 1,
+				"-": 587
+			},
+			"sources": {
+				"wikidata": 97,
+				"csv": 39,
+				"config": 0,
+				"-": 549
 			}
 		}
 	]

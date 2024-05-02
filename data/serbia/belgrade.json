@@ -11,7 +11,7 @@
 		"id": "belgrade",
 		"name": "🇷🇸 Belgrade, Serbia",
 		"url": "https://naziviulica.openstreetmap.rs/",
-		"update": "2024-04-02T05:15:59.459Z"
+		"update": "2024-05-02T05:17:39.087Z"
 	},
 	"statistics": [
 		{
@@ -192,26 +192,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 1545
-			}
-		},
-		{
-			"date": "2021-08-19T01:56:54Z",
-			"values": {
-				"F": 186,
-				"M": 1536,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 2537
-			},
-			"sources": {
-				"wikidata": 2691,
-				"csv": 0,
-				"config": 0,
-				"-": 1568
 			}
 		},
 		{
@@ -789,6 +769,26 @@
 			},
 			"sources": {
 				"wikidata": 2718,
+				"csv": 0,
+				"config": 0,
+				"-": 1649
+			}
+		},
+		{
+			"date": "2024-04-02T05:28:59Z",
+			"values": {
+				"F": 192,
+				"M": 1555,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 2620
+			},
+			"sources": {
+				"wikidata": 2719,
 				"csv": 0,
 				"config": 0,
 				"-": 1649
