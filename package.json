@@ -54,7 +54,7 @@
 		"@types/geojson": "^7946.0.14",
 		"chart.js": "^4.4.2",
 		"chartjs-adapter-date-fns": "^3.0.0",
-		"dotenv": "^16.4.1",
+		"dotenv": "^16.4.5",
 		"maplibre-gl": "^4.2.0",
 		"octokit": "^3.1.2",
 		"vite-node": "^1.2.2"
