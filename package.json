@@ -57,6 +57,6 @@
 		"dotenv": "^16.4.5",
 		"maplibre-gl": "^4.2.0",
 		"octokit": "^3.1.2",
-		"vite-node": "^1.2.2"
+		"vite-node": "^1.6.0"
 	}
 }
