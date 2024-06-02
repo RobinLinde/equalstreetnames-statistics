@@ -11,29 +11,9 @@
 		"id": "saint-brieuc",
 		"name": "🇫🇷 Saint-Brieuc, France",
 		"url": "https://saint-brieuc.equalstreetnames.eu/",
-		"update": "2024-05-02T05:15:33.787Z"
+		"update": "2024-06-02T05:14:50.171Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-08-07T02:48:10Z",
-			"values": {
-				"F": 5,
-				"M": 52,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 814
-			},
-			"sources": {
-				"wikidata": 101,
-				"csv": 0,
-				"config": 0,
-				"-": 771
-			}
-		},
 		{
 			"date": "2021-08-14T02:46:53Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 778
+			}
+		},
+		{
+			"date": "2024-06-02T02:36:53Z",
+			"values": {
+				"F": 5,
+				"M": 54,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 821
+			},
+			"sources": {
+				"wikidata": 104,
+				"csv": 0,
+				"config": 0,
+				"-": 777
 			}
 		}
 	]

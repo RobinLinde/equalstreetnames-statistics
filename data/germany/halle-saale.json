@@ -11,7 +11,7 @@
 		"id": "halle-saale",
 		"name": "🇩🇪 Halle (Saale), Germany",
 		"url": "https://halle-saale.equalstreetnames.eu/",
-		"update": "2024-05-02T05:16:05.097Z"
+		"update": "2024-06-02T05:15:24.700Z"
 	},
 	"statistics": [
 		{
@@ -158,26 +158,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 1541
-			}
-		},
-		{
-			"date": "2021-08-24T02:28:18Z",
-			"values": {
-				"F": 21,
-				"M": 288,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 1375
-			},
-			"sources": {
-				"wikidata": 311,
-				"csv": 0,
-				"config": 0,
-				"-": 1374
 			}
 		},
 		{
@@ -758,6 +738,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1140
+			}
+		},
+		{
+			"date": "2024-05-02T14:41:06Z",
+			"values": {
+				"F": 22,
+				"M": 416,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 1236
+			},
+			"sources": {
+				"wikidata": 533,
+				"csv": 0,
+				"config": 0,
+				"-": 1142
 			}
 		}
 	]

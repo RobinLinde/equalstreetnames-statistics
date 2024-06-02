@@ -11,7 +11,7 @@
 		"id": "antwerpen",
 		"name": "🇧🇪 Antwerpen, Belgium",
 		"url": "https://antwerpen.equalstreetnames.be/",
-		"update": "2024-05-02T05:14:08.209Z"
+		"update": "2024-06-02T05:13:18.662Z"
 	},
 	"statistics": [
 		{
@@ -576,6 +576,26 @@
 		},
 		{
 			"date": "2024-05-01T06:40:13Z",
+			"values": {
+				"F": 64,
+				"M": 517,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 2719
+			},
+			"sources": {
+				"wikidata": 905,
+				"csv": 16,
+				"config": 0,
+				"-": 2382
+			}
+		},
+		{
+			"date": "2024-06-01T06:40:18Z",
 			"values": {
 				"F": 64,
 				"M": 517,

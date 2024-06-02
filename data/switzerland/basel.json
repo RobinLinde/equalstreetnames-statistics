@@ -11,29 +11,9 @@
 		"id": "basel",
 		"name": "🇨🇭 Basel, Switzerland",
 		"url": "https://basel.equalstreetnames.eu/",
-		"update": "2024-05-02T05:17:58.536Z"
+		"update": "2024-06-02T05:17:28.675Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-04-15T17:40:57Z",
-			"values": {
-				"F": 5,
-				"M": 94,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 900
-			},
-			"sources": {
-				"wikidata": 102,
-				"csv": 0,
-				"config": 0,
-				"-": 897
-			}
-		},
 		{
 			"date": "2022-04-16T09:48:40Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 575
+			}
+		},
+		{
+			"date": "2024-05-02T09:15:26Z",
+			"values": {
+				"F": 8,
+				"M": 107,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 940
+			},
+			"sources": {
+				"wikidata": 481,
+				"csv": 0,
+				"config": 0,
+				"-": 574
 			}
 		}
 	]

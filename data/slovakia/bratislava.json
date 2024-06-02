@@ -11,29 +11,9 @@
 		"id": "bratislava",
 		"name": "🇸🇰 Bratislava, Slovakia",
 		"url": "https://bratislava.equalstreetnames.eu/",
-		"update": "2024-05-02T05:17:43.283Z"
+		"update": "2024-06-02T05:17:11.944Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-08-26T04:11:48Z",
-			"values": {
-				"F": 12,
-				"M": 220,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 1773
-			},
-			"sources": {
-				"wikidata": 333,
-				"csv": 0,
-				"config": 0,
-				"-": 1672
-			}
-		},
 		{
 			"date": "2021-09-02T04:12:15Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1254
+			}
+		},
+		{
+			"date": "2024-05-02T05:41:52Z",
+			"values": {
+				"F": 13,
+				"M": 310,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1709
+			},
+			"sources": {
+				"wikidata": 775,
+				"csv": 0,
+				"config": 0,
+				"-": 1257
 			}
 		}
 	]

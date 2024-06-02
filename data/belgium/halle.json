@@ -11,7 +11,7 @@
 		"id": "halle",
 		"name": "🇧🇪 Halle, Belgium",
 		"url": "https://halle.equalstreetnames.be/",
-		"update": "2024-05-02T05:14:41.280Z"
+		"update": "2024-06-02T05:13:51.653Z"
 	},
 	"statistics": [
 		{
@@ -112,6 +112,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 508
+			}
+		},
+		{
+			"date": "2024-06-01T08:09:40Z",
+			"values": {
+				"F": 6,
+				"M": 17,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 516
+			},
+			"sources": {
+				"wikidata": 29,
+				"csv": 0,
+				"config": 0,
+				"-": 510
 			}
 		}
 	]

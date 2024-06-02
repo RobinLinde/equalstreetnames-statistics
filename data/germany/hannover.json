@@ -11,7 +11,7 @@
 		"id": "hannover",
 		"name": "🇩🇪 Hannover, Germany",
 		"url": "https://hannover.equalstreetnames.eu/",
-		"update": "2024-05-02T05:16:06.743Z"
+		"update": "2024-06-02T05:15:26.663Z"
 	},
 	"statistics": [
 		{
@@ -212,6 +212,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 857
+			}
+		},
+		{
+			"date": "2024-05-02T21:36:10Z",
+			"values": {
+				"F": 189,
+				"M": 1133,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 2452
+			},
+			"sources": {
+				"wikidata": 2916,
+				"csv": 0,
+				"config": 0,
+				"-": 858
 			}
 		}
 	]

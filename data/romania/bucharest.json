@@ -11,7 +11,7 @@
 		"id": "bucharest",
 		"name": "🇷🇴 Bucharest, Romania",
 		"url": "https://bucharest.equalstreetnames.eu/",
-		"update": "2024-05-02T05:17:32.663Z"
+		"update": "2024-06-02T05:17:00.315Z"
 	},
 	"statistics": [
 		{
@@ -152,6 +152,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 5010
+			}
+		},
+		{
+			"date": "2024-06-02T02:09:46Z",
+			"values": {
+				"F": 1,
+				"M": 4,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 5010
+			},
+			"sources": {
+				"wikidata": 6,
+				"csv": 0,
+				"config": 0,
+				"-": 5009
 			}
 		}
 	]

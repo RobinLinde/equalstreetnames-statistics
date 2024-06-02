@@ -11,7 +11,7 @@
 		"id": "copenhagen",
 		"name": "🇩🇰 Copenhagen, Denmark",
 		"url": "https://copenhagen.equalstreetnames.eu/",
-		"update": "2024-05-02T05:15:20.859Z"
+		"update": "2024-06-02T05:14:35.964Z"
 	},
 	"statistics": [
 		{
@@ -192,6 +192,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1130
+			}
+		},
+		{
+			"date": "2024-06-02T01:17:09Z",
+			"values": {
+				"F": 70,
+				"M": 442,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 2211
+			},
+			"sources": {
+				"wikidata": 1595,
+				"csv": 0,
+				"config": 0,
+				"-": 1128
 			}
 		}
 	]

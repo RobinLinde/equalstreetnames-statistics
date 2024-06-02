@@ -11,29 +11,9 @@
 		"id": "minsk",
 		"name": "🇧🇾 Minsk, Belarus",
 		"url": "https://minsk.equalstreetnames.org/",
-		"update": "2024-05-02T05:14:04.115Z"
+		"update": "2024-06-02T05:13:14.082Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-08-07T04:54:33Z",
-			"values": {
-				"F": 21,
-				"M": 428,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 961
-			},
-			"sources": {
-				"wikidata": 483,
-				"csv": 0,
-				"config": 0,
-				"-": 928
-			}
-		},
 		{
 			"date": "2021-08-14T04:54:42Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 978
+			}
+		},
+		{
+			"date": "2024-06-02T02:15:36Z",
+			"values": {
+				"F": 20,
+				"M": 424,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 1016
+			},
+			"sources": {
+				"wikidata": 482,
+				"csv": 0,
+				"config": 0,
+				"-": 979
 			}
 		}
 	]
