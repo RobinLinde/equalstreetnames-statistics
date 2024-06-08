@@ -4,14 +4,14 @@
 		"countryId": "germany",
 		"geo": {
 			"center": [
-				8.633196787131736,
-				50.12056438052817
+				8.63161863080283,
+				50.120075647228724
 			]
 		},
 		"id": "frankfurt-am-main",
 		"name": "🇩🇪 Frankfurt am Main, Germany",
 		"url": "https://frankfurt.equalstreetnames.eu/",
-		"update": "2024-06-02T05:15:40.061Z"
+		"update": "2024-06-08T15:16:01.068Z"
 	},
 	"statistics": [
 		{
@@ -292,6 +292,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 2651
+			}
+		},
+		{
+			"date": "2024-06-02T20:36:45Z",
+			"values": {
+				"F": 90,
+				"M": 730,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 2,
+				"?": 0,
+				"-": 2737
+			},
+			"sources": {
+				"wikidata": 942,
+				"csv": 0,
+				"config": 0,
+				"-": 2617
 			}
 		}
 	]

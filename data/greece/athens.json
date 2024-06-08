@@ -11,7 +11,7 @@
 		"id": "athens",
 		"name": "🇬🇷 Athens, Greece",
 		"url": "https://athens.equalstreetnames.eu/",
-		"update": "2024-06-02T05:16:04.275Z"
+		"update": "2024-06-08T15:16:26.088Z"
 	},
 	"statistics": [
 		{
@@ -176,6 +176,26 @@
 		},
 		{
 			"date": "2024-05-02T23:17:01Z",
+			"values": {
+				"F": 0,
+				"M": 7,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 3153
+			},
+			"sources": {
+				"wikidata": 10,
+				"csv": 0,
+				"config": 0,
+				"-": 3150
+			}
+		},
+		{
+			"date": "2024-06-02T23:14:57Z",
 			"values": {
 				"F": 0,
 				"M": 7,
