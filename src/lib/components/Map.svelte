@@ -2,7 +2,8 @@
 	import { PUBLIC_MAPTILER_TOKEN } from '$env/static/public';
 	import { createEventDispatcher, onMount } from 'svelte';
 	import 'maplibre-gl/dist/maplibre-gl.css';
-	import { LngLatBounds, Map, Popup } from 'maplibre-gl';
+	import maplibre from 'maplibre-gl';
+	const { LngLatBounds, Map, Popup } = maplibre;
 	import bbox from '@turf/bbox';
 	import centroid from '@turf/centroid';
 	import type { CityMetadata } from '$lib/@types/esn';
@@ -13,7 +14,7 @@
 	export let cities: CityMetadata[] = citiesFile;
 	export let statistics: boolean = true;
 
-	let map: Map;
+	let map: maplibre.Map;
 
 	const dispatch = createEventDispatcher();
 
@@ -138,6 +139,7 @@
 				map.getCanvas().style.cursor = 'pointer';
 
 				if (e.features) {
+					// @ts-expect-error - In theory the geometry is always there, since wer're generating it elsewhere
 					const coordinates = e.features[0].geometry.coordinates.slice();
 					const description = e.features[0].properties.title;
 

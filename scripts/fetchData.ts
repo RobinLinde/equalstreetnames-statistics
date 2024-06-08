@@ -10,8 +10,7 @@ import {
 	HistoryItem
 } from '../src/lib/@types/esn';
 import centroid from '@turf/centroid';
-import { FeatureCollection } from '@turf/helpers';
-import type { MultiPolygon } from 'geojson';
+import type { MultiPolygon, FeatureCollection } from 'geojson';
 
 /**
  * Parsed information about a submodule
