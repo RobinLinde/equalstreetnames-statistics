@@ -13,7 +13,7 @@
 		"fetch-data": "vite-node ./scripts/fetchData.ts"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.2.1",
+		"@sveltejs/adapter-auto": "^3.2.2",
 		"@sveltejs/kit": "^2.5.10",
 		"@types/node": "^20.14.2",
 		"@typescript-eslint/eslint-plugin": "^7.12.0",
