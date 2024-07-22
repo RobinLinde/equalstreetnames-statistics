@@ -23,7 +23,7 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.41.0",
 		"postcss": "^8.4.39",
-		"postcss-nested": "^6.0.1",
+		"postcss-nested": "^6.2.0",
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.2.5",
 		"svelte": "^4.2.18",
