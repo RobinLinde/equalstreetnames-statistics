@@ -57,7 +57,7 @@
 		"chart.js": "^4.4.3",
 		"chartjs-adapter-date-fns": "^3.0.0",
 		"dotenv": "^16.4.5",
-		"maplibre-gl": "^4.4.0",
+		"maplibre-gl": "^4.6.0",
 		"octokit": "^4.0.2",
 		"vite-node": "^1.6.0"
 	}
