@@ -11,29 +11,9 @@
 		"id": "warsaw",
 		"name": "🇵🇱 Warsaw, Poland",
 		"url": "https://warsaw.equalstreetnames.eu/",
-		"update": "2024-06-02T05:16:54.222Z"
+		"update": "2025-01-02T05:20:48.024Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-08-16T15:40:13Z",
-			"values": {
-				"F": 5,
-				"M": 61,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 5466
-			},
-			"sources": {
-				"wikidata": 133,
-				"csv": 0,
-				"config": 0,
-				"-": 5400
-			}
-		},
 		{
 			"date": "2021-08-19T07:10:11Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 3834
+			}
+		},
+		{
+			"date": "2025-01-02T02:21:49Z",
+			"values": {
+				"F": 94,
+				"M": 860,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 3,
+				"?": 0,
+				"-": 4828
+			},
+			"sources": {
+				"wikidata": 1857,
+				"csv": 0,
+				"config": 0,
+				"-": 3928
 			}
 		}
 	]

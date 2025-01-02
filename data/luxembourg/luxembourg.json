@@ -4,36 +4,16 @@
 		"countryId": "luxembourg",
 		"geo": {
 			"center": [
-				6.128029890776261,
-				49.608359310867606
+				6.1279762360072985,
+				49.608428233500476
 			]
 		},
 		"id": "luxembourg",
 		"name": "🇱🇺 Luxembourg, Luxembourg",
 		"url": "https://luxembourg.equalstreetnames.eu/",
-		"update": "2024-06-02T05:16:15.442Z"
+		"update": "2025-01-02T05:19:54.159Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-09-25T03:19:41Z",
-			"values": {
-				"F": 42,
-				"M": 368,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 3,
-				"?": 0,
-				"-": 448
-			},
-			"sources": {
-				"wikidata": 529,
-				"csv": 0,
-				"config": 0,
-				"-": 332
-			}
-		},
 		{
 			"date": "2021-10-01T20:19:18Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 330
+			}
+		},
+		{
+			"date": "2025-01-01T20:23:41Z",
+			"values": {
+				"F": 49,
+				"M": 374,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 4,
+				"?": 0,
+				"-": 447
+			},
+			"sources": {
+				"wikidata": 545,
+				"csv": 0,
+				"config": 0,
+				"-": 329
 			}
 		}
 	]

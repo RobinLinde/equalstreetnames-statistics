@@ -4,14 +4,14 @@
 		"countryId": "denmark",
 		"geo": {
 			"center": [
-				12.578890536674782,
-				55.67590354989803
+				12.577607453472053,
+				55.674943941470524
 			]
 		},
 		"id": "copenhagen",
 		"name": "🇩🇰 Copenhagen, Denmark",
 		"url": "https://copenhagen.equalstreetnames.eu/",
-		"update": "2024-06-02T05:14:35.964Z"
+		"update": "2025-01-02T05:17:37.148Z"
 	},
 	"statistics": [
 		{
@@ -212,6 +212,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1128
+			}
+		},
+		{
+			"date": "2025-01-02T01:34:27Z",
+			"values": {
+				"F": 80,
+				"M": 481,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 2165
+			},
+			"sources": {
+				"wikidata": 1960,
+				"csv": 0,
+				"config": 0,
+				"-": 766
 			}
 		}
 	]

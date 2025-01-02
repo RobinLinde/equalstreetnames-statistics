@@ -11,29 +11,9 @@
 		"id": "bolzano",
 		"name": "🇮🇹 Bolzano, Italy",
 		"url": "https://bolzano.equalstreetnames.eu/",
-		"update": "2024-06-02T05:16:10.830Z"
+		"update": "2025-01-02T05:19:48.059Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-08-29T16:09:48Z",
-			"values": {
-				"F": 25,
-				"M": 97,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 380
-			},
-			"sources": {
-				"wikidata": 173,
-				"csv": 0,
-				"config": 8,
-				"-": 321
-			}
-		},
 		{
 			"date": "2021-09-02T02:43:38Z",
 			"values": {
@@ -596,6 +576,26 @@
 		},
 		{
 			"date": "2024-06-02T02:48:27Z",
+			"values": {
+				"F": 25,
+				"M": 98,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 384
+			},
+			"sources": {
+				"wikidata": 174,
+				"csv": 0,
+				"config": 8,
+				"-": 325
+			}
+		},
+		{
+			"date": "2025-01-02T02:59:48Z",
 			"values": {
 				"F": 25,
 				"M": 98,

@@ -1,0 +1,58 @@
+{
+	"meta": {
+		"cityName": "Narva",
+		"countryId": "estonia",
+		"geo": {
+			"center": [
+				28.144345008395586,
+				59.35096771835123
+			]
+		},
+		"id": "narva",
+		"name": "🇪🇪 Narva, Estonia",
+		"url": "https://narva.equalstreetnames.eu/",
+		"update": "2025-01-02T05:17:38.194Z"
+	},
+	"statistics": [
+		{
+			"date": "2025-01-01T12:00:00Z",
+			"values": {
+				"F": 1,
+				"M": 12,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 389
+			},
+			"sources": {
+				"wikidata": 47,
+				"csv": 0,
+				"config": 0,
+				"-": 355
+			}
+		},
+		{
+			"date": "2025-01-01T13:21:41Z",
+			"values": {
+				"F": 1,
+				"M": 12,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 389
+			},
+			"sources": {
+				"wikidata": 47,
+				"csv": 0,
+				"config": 0,
+				"-": 355
+			}
+		}
+	]
+}
