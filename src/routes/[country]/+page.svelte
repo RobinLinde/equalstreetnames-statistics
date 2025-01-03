@@ -4,7 +4,7 @@
 	import type { CityMetadata } from '$lib/@types/esn';
 	import Map from '$lib/components/Map.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	const cities = data.cities as CityMetadata[];
 

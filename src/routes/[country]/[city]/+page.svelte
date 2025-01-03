@@ -1,13 +1,18 @@
 <script lang="ts">
-	import type { PageData } from '../$types';
+	import type { PageData } from './$types';
 	import type { CompiledStatistics } from '$lib/@types/esn';
 	import Graph from '$lib/components/Graph.svelte';
 	import PieGraph from '$lib/components/PieGraph.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
+	//@ts-ignore
 	const compiledStats: CompiledStatistics = data.statistics;
 </script>
+
+<svelte:head>
+	<title>EqualStreetNames Statistics</title>
+</svelte:head>
 
 <div class="wrapper">
 	<div class="content">
