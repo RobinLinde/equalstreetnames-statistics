@@ -188,7 +188,7 @@
 	});
 </script>
 
-<div id="map" />
+<div id="map"></div>
 
 <style lang="postcss">
 	#map {

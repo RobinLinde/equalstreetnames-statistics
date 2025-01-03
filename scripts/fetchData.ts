@@ -400,7 +400,7 @@ async function getHistory(owner: string, repo: string, path: string): Promise<Fi
 				);
 			}
 		} catch (e) {
-			console.log(`Error fetching ${owner}/${repo}/${path} for ${commit.sha}`);
+			console.log(`Error fetching ${owner}/${repo}/${path} for ${commit.sha}: ${e}`);
 		}
 	}
 
