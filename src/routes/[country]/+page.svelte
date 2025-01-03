@@ -8,8 +8,8 @@
 
 	const cities = data.cities as CityMetadata[];
 
-	let activeCity: CityMetadata | null = null;
-	let map: Map;
+	let activeCity: CityMetadata | null = $state(null);
+	let map: Map | null = $state(null);
 </script>
 
 <svelte:head>
@@ -25,7 +25,9 @@
 					{activeCity}
 					on:cityHover={(e) => {
 						activeCity = e.detail;
-						map.changeActiveCity(e.detail);
+						if (map) {
+							map.changeActiveCity(e.detail);
+						}
 					}}
 				/>
 			</div>

@@ -6,7 +6,6 @@
 
 	let { data }: { data: PageData } = $props();
 
-	//@ts-ignore
 	const compiledStats: CompiledStatistics = data.statistics;
 </script>
 
