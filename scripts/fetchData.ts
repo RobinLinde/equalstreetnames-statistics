@@ -77,13 +77,26 @@ interface MetadataFile {
 }
 
 dotenv.config();
-const outDir = 'data';
+let outDir = 'data';
 const apiKey = process.env.GITHUB_TOKEN;
 
 /**
  * Script to fetch data from the GitHub API, which we can later convert to a convenient format.
+ *
+ * @param args Command line arguments
  */
-async function main() {
+async function main(args: string[]) {
+	// First check if the help command was given (either -h or --help)
+	if (args.includes('-h') || args.includes('--help')) {
+		console.log(`Usage: fetchData.ts [options]`);
+		console.log(`Options:`);
+		console.log(`  -h, --help   Show this help message`);
+		console.log(
+			`  -t, --test   Run in test mode, only fetch data for the first city, also writes to the data-test directory`
+		);
+		return;
+	}
+
 	// First we'll need to look at the submodules to find all repositories
 	const body = await (
 		await fetch(
@@ -91,9 +104,15 @@ async function main() {
 		)
 	).text();
 
-	const submodules = parseSubmodules(body).filter((submodule) =>
+	let submodules = parseSubmodules(body).filter((submodule) =>
 		submodule.path.startsWith('cities/')
 	);
+
+	if (args.includes('-t') || args.includes('--test')) {
+		console.log('Running in test mode, only fetching data for the first city');
+		submodules = submodules.slice(0, 1);
+		outDir = 'data-test';
+	}
 
 	const cities = await getCities();
 	const cityMeta: CityMetadata[] = [];
@@ -482,4 +501,4 @@ async function getCenter(owner: string, repo: string): Promise<[number, number]>
 	return [center.geometry.coordinates[0], center.geometry.coordinates[1]];
 }
 
-main();
+main(process.argv.slice(2));

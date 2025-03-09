@@ -1,0 +1,42 @@
+name: Data Update CI
+
+on:
+  push:
+    paths:
+      - '.github/workflows/update-data.yml'
+      - 'scripts/**'
+      - 'package.json'
+  pull_request:
+    paths:
+      - '.github/workflows/update-data.yml'
+      - 'scripts/**'
+      - 'package.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x, 22.x]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test data fetching
+        run: npm run fetch-data -- -t
+        env:
+          GITHUB_TOKEN: ${{ secrets.API_KEY }}
+
+      - name: Upload test data
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-data
+          path: data-test/
