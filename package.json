@@ -57,7 +57,7 @@
 		"@turf/bbox": "^7.2.0",
 		"@turf/centroid": "^7.2.0",
 		"@types/geojson": "^7946.0.15",
-		"chart.js": "^4.4.7",
+		"chart.js": "^4.4.9",
 		"chartjs-adapter-date-fns": "^3.0.0",
 		"dotenv": "^16.4.7",
 		"maplibre-gl": "^5.0.0",
