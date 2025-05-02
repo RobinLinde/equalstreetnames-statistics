@@ -11,29 +11,9 @@
 		"id": "rixensart",
 		"name": "🇧🇪 Rixensart, Belgium",
 		"url": "https://rixensart.equalstreetnames.be/",
-		"update": "2025-04-02T05:15:37.453Z"
+		"update": "2025-05-02T05:15:02.105Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-12-23T20:47:40Z",
-			"values": {
-				"F": 11,
-				"M": 54,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 352
-			},
-			"sources": {
-				"wikidata": 38,
-				"csv": 33,
-				"config": 0,
-				"-": 346
-			}
-		},
 		{
 			"date": "2022-12-23T20:51:35Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 48,
 				"config": 0,
 				"-": 328
+			}
+		},
+		{
+			"date": "2025-05-01T07:18:22Z",
+			"values": {
+				"F": 23,
+				"M": 62,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 333
+			},
+			"sources": {
+				"wikidata": 43,
+				"csv": 48,
+				"config": 0,
+				"-": 327
 			}
 		}
 	]

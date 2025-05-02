@@ -4,14 +4,14 @@
 		"countryId": "germany",
 		"geo": {
 			"center": [
-				8.225684822346372,
-				53.144293434078264
+				8.225684823603354,
+				53.14429343477659
 			]
 		},
 		"id": "oldenburg",
 		"name": "🇩🇪 Oldenburg, Germany",
 		"url": "https://oldenburg.equalstreetnames.eu/",
-		"update": "2025-04-02T05:17:14.037Z"
+		"update": "2025-05-02T05:16:38.752Z"
 	},
 	"statistics": [
 		{
@@ -192,6 +192,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1496
+			}
+		},
+		{
+			"date": "2025-04-02T22:38:57Z",
+			"values": {
+				"F": 8,
+				"M": 55,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1497
+			},
+			"sources": {
+				"wikidata": 63,
+				"csv": 0,
+				"config": 0,
+				"-": 1497
 			}
 		}
 	]

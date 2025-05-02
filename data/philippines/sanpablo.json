@@ -11,29 +11,9 @@
 		"id": "sanpablo",
 		"name": "🇵🇭 San Pablo, Philippines",
 		"url": "https://sanpablo.equalstreetnames.org/",
-		"update": "2025-04-02T05:18:09.383Z"
+		"update": "2025-05-02T05:17:34.974Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-12-02T03:10:54Z",
-			"values": {
-				"F": 7,
-				"M": 27,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 255
-			},
-			"sources": {
-				"wikidata": 135,
-				"csv": 0,
-				"config": 0,
-				"-": 154
-			}
-		},
 		{
 			"date": "2022-01-02T03:12:12Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 194
+			}
+		},
+		{
+			"date": "2025-05-02T03:41:51Z",
+			"values": {
+				"F": 8,
+				"M": 29,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 320
+			},
+			"sources": {
+				"wikidata": 162,
+				"csv": 0,
+				"config": 0,
+				"-": 195
 			}
 		}
 	]

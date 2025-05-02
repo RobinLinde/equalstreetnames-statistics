@@ -11,7 +11,7 @@
 		"id": "lausanne",
 		"name": "🇨🇭 Lausanne, Switzerland",
 		"url": "https://lausanne.equalstreetnames.eu/",
-		"update": "2025-04-02T05:19:14.338Z"
+		"update": "2025-05-02T05:18:37.686Z"
 	},
 	"statistics": [
 		{
@@ -113,26 +113,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 565
-			}
-		},
-		{
-			"date": "2021-09-10T02:20:15Z",
-			"values": {
-				"F": 4,
-				"M": 80,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 604
-			},
-			"sources": {
-				"wikidata": 130,
-				"csv": 0,
-				"config": 0,
-				"-": 558
 			}
 		},
 		{
@@ -697,6 +677,26 @@
 		},
 		{
 			"date": "2025-03-02T07:38:06Z",
+			"values": {
+				"F": 8,
+				"M": 89,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 605
+			},
+			"sources": {
+				"wikidata": 203,
+				"csv": 0,
+				"config": 0,
+				"-": 499
+			}
+		},
+		{
+			"date": "2025-04-02T07:40:09Z",
 			"values": {
 				"F": 8,
 				"M": 89,

@@ -11,29 +11,9 @@
 		"id": "zurich",
 		"name": "🇨🇭 Zurich, Switzerland",
 		"url": "https://zurich.equalstreetnames.eu/",
-		"update": "2025-04-02T05:19:25.807Z"
+		"update": "2025-05-02T05:18:49.095Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-03-19T22:23:17Z",
-			"values": {
-				"F": 63,
-				"M": 433,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 2122
-			},
-			"sources": {
-				"wikidata": 609,
-				"csv": 0,
-				"config": 0,
-				"-": 2009
-			}
-		},
 		{
 			"date": "2022-05-02T08:57:44Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 2001
+			}
+		},
+		{
+			"date": "2025-04-02T08:54:13Z",
+			"values": {
+				"F": 61,
+				"M": 434,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 2156
+			},
+			"sources": {
+				"wikidata": 649,
+				"csv": 0,
+				"config": 0,
+				"-": 2002
 			}
 		}
 	]
