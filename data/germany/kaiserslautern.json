@@ -11,29 +11,9 @@
 		"id": "kaiserslautern",
 		"name": "🇩🇪 Kaiserslautern, Germany",
 		"url": "https://kaiserslautern.equalstreetnames.eu/",
-		"update": "2025-05-02T05:16:11.089Z"
+		"update": "2025-06-02T05:19:03.963Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-05-02T17:45:09Z",
-			"values": {
-				"F": 14,
-				"M": 172,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 793
-			},
-			"sources": {
-				"wikidata": 199,
-				"csv": 0,
-				"config": 0,
-				"-": 780
-			}
-		},
 		{
 			"date": "2022-06-02T17:49:50Z",
 			"values": {
@@ -596,6 +576,26 @@
 		},
 		{
 			"date": "2025-04-02T17:39:49Z",
+			"values": {
+				"F": 14,
+				"M": 170,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 804
+			},
+			"sources": {
+				"wikidata": 197,
+				"csv": 0,
+				"config": 0,
+				"-": 791
+			}
+		},
+		{
+			"date": "2025-05-02T17:40:32Z",
 			"values": {
 				"F": 14,
 				"M": 170,

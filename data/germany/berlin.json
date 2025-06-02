@@ -11,7 +11,7 @@
 		"id": "berlin",
 		"name": "🇩🇪 Berlin, Germany",
 		"url": "https://equalstreetnames-berlin.openstreetmap.de/",
-		"update": "2025-05-02T05:15:34.745Z"
+		"update": "2025-06-02T05:18:12.623Z"
 	},
 	"statistics": [
 		{
@@ -216,26 +216,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 1410
-			}
-		},
-		{
-			"date": "2021-10-02T12:47:55Z",
-			"values": {
-				"F": 378,
-				"M": 3026,
-				"FX": 1,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 7,
-				"?": 1,
-				"-": 7891
-			},
-			"sources": {
-				"wikidata": 9881,
-				"csv": 0,
-				"config": 0,
-				"-": 1423
 			}
 		},
 		{
@@ -816,6 +796,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1548
+			}
+		},
+		{
+			"date": "2025-05-02T12:56:31Z",
+			"values": {
+				"F": 379,
+				"M": 2992,
+				"FX": 1,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 7,
+				"?": 2,
+				"-": 7710
+			},
+			"sources": {
+				"wikidata": 9537,
+				"csv": 0,
+				"config": 0,
+				"-": 1554
 			}
 		}
 	]

@@ -11,7 +11,7 @@
 		"id": "nivelles",
 		"name": "🇧🇪 Nivelles, Belgium",
 		"url": "https://nivelles.equalstreetnames.be/",
-		"update": "2025-05-02T05:14:56.942Z"
+		"update": "2025-06-02T05:17:18.052Z"
 	},
 	"statistics": [
 		{
@@ -145,26 +145,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 428
-			}
-		},
-		{
-			"date": "2022-07-01T05:51:07Z",
-			"values": {
-				"F": 4,
-				"M": 18,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 429
-			},
-			"sources": {
-				"wikidata": 22,
-				"csv": 0,
-				"config": 0,
-				"-": 429
 			}
 		},
 		{
@@ -729,6 +709,26 @@
 		},
 		{
 			"date": "2025-05-01T05:43:16Z",
+			"values": {
+				"F": 4,
+				"M": 18,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 451
+			},
+			"sources": {
+				"wikidata": 22,
+				"csv": 0,
+				"config": 0,
+				"-": 451
+			}
+		},
+		{
+			"date": "2025-06-01T05:43:27Z",
 			"values": {
 				"F": 4,
 				"M": 18,
