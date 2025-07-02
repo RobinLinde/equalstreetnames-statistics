@@ -11,29 +11,9 @@
 		"id": "chorzow",
 		"name": "🇵🇱 Chorzów, Poland",
 		"url": "https://chorzow.equalstreetnames.eu/",
-		"update": "2025-06-02T05:21:12.930Z"
+		"update": "2025-07-02T05:22:02.547Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-11-02T06:08:46Z",
-			"values": {
-				"F": 12,
-				"M": 131,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 259
-			},
-			"sources": {
-				"wikidata": 232,
-				"csv": 0,
-				"config": 0,
-				"-": 170
-			}
-		},
 		{
 			"date": "2021-12-02T06:09:43Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 119
+			}
+		},
+		{
+			"date": "2025-06-02T06:30:22Z",
+			"values": {
+				"F": 13,
+				"M": 136,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 268
+			},
+			"sources": {
+				"wikidata": 297,
+				"csv": 0,
+				"config": 0,
+				"-": 120
 			}
 		}
 	]

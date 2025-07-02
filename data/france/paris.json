@@ -11,7 +11,7 @@
 		"id": "paris",
 		"name": "🇫🇷 Paris, France",
 		"url": "https://paris.equalstreetnames.eu/",
-		"update": "2025-06-02T05:17:54.468Z"
+		"update": "2025-07-02T05:18:57.503Z"
 	},
 	"statistics": [
 		{
@@ -349,6 +349,26 @@
 			},
 			"sources": {
 				"wikidata": 5338,
+				"csv": 0,
+				"config": 0,
+				"-": 1794
+			}
+		},
+		{
+			"date": "2025-07-02T02:44:46Z",
+			"values": {
+				"F": 324,
+				"M": 2957,
+				"FX": 1,
+				"MX": 0,
+				"X": 0,
+				"NB": 1,
+				"+": 27,
+				"?": 2,
+				"-": 3830
+			},
+			"sources": {
+				"wikidata": 5348,
 				"csv": 0,
 				"config": 0,
 				"-": 1794

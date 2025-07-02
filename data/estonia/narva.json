@@ -11,7 +11,7 @@
 		"id": "narva",
 		"name": "🇪🇪 Narva, Estonia",
 		"url": "https://narva.equalstreetnames.eu/",
-		"update": "2025-06-02T05:17:36.473Z"
+		"update": "2025-07-02T05:18:40.472Z"
 	},
 	"statistics": [
 		{
@@ -152,6 +152,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 355
+			}
+		},
+		{
+			"date": "2025-06-02T18:45:05Z",
+			"values": {
+				"F": 1,
+				"M": 12,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 389
+			},
+			"sources": {
+				"wikidata": 48,
+				"csv": 0,
+				"config": 0,
+				"-": 354
 			}
 		}
 	]

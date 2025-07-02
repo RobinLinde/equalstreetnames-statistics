@@ -11,7 +11,7 @@
 		"id": "oldenburg",
 		"name": "🇩🇪 Oldenburg, Germany",
 		"url": "https://oldenburg.equalstreetnames.eu/",
-		"update": "2025-06-02T05:19:44.055Z"
+		"update": "2025-07-02T05:20:40.270Z"
 	},
 	"statistics": [
 		{
@@ -232,6 +232,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1497
+			}
+		},
+		{
+			"date": "2025-06-02T22:40:50Z",
+			"values": {
+				"F": 8,
+				"M": 55,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1496
+			},
+			"sources": {
+				"wikidata": 63,
+				"csv": 0,
+				"config": 0,
+				"-": 1496
 			}
 		}
 	]

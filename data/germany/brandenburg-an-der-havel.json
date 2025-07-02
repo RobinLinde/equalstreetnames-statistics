@@ -11,29 +11,9 @@
 		"id": "brandenburg-an-der-havel",
 		"name": "🇩🇪 Brandenburg an der Havel, Germany",
 		"url": "https://brandenburg-an-der-havel.equalstreetnames.eu/",
-		"update": "2025-06-02T05:18:19.691Z"
+		"update": "2025-07-02T05:19:20.808Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-09-28T03:38:04Z",
-			"values": {
-				"F": 12,
-				"M": 116,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 2,
-				"?": 0,
-				"-": 499
-			},
-			"sources": {
-				"wikidata": 104,
-				"csv": 30,
-				"config": 0,
-				"-": 495
-			}
-		},
 		{
 			"date": "2021-10-02T12:55:58Z",
 			"values": {
@@ -596,6 +576,26 @@
 		},
 		{
 			"date": "2025-05-02T13:04:38Z",
+			"values": {
+				"F": 12,
+				"M": 116,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 2,
+				"?": 0,
+				"-": 503
+			},
+			"sources": {
+				"wikidata": 105,
+				"csv": 29,
+				"config": 0,
+				"-": 499
+			}
+		},
+		{
+			"date": "2025-06-02T13:09:04Z",
 			"values": {
 				"F": 12,
 				"M": 116,

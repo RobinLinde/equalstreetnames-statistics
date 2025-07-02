@@ -11,7 +11,7 @@
 		"id": "wroclaw",
 		"name": "🇵🇱 Wrocław, Poland",
 		"url": "https://wroclaw.equalstreetnames.eu/",
-		"update": "2025-06-02T05:21:25.441Z"
+		"update": "2025-07-02T05:22:14.593Z"
 	},
 	"statistics": [
 		{
@@ -492,6 +492,26 @@
 				"csv": 0,
 				"config": 14,
 				"-": 1769
+			}
+		},
+		{
+			"date": "2025-06-02T21:44:24Z",
+			"values": {
+				"F": 29,
+				"M": 384,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 3,
+				"?": 0,
+				"-": 2054
+			},
+			"sources": {
+				"wikidata": 681,
+				"csv": 0,
+				"config": 14,
+				"-": 1775
 			}
 		}
 	]

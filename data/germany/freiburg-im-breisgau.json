@@ -11,29 +11,9 @@
 		"id": "freiburg-im-breisgau",
 		"name": "🇩🇪 Freiburg im Breisgau, Germany",
 		"url": "https://freiburg-im-breisgau.equalstreetnames.eu/",
-		"update": "2025-06-02T05:18:34.044Z"
+		"update": "2025-07-02T05:19:33.630Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-08-02T14:00:04Z",
-			"values": {
-				"F": 42,
-				"M": 204,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 1,
-				"?": 0,
-				"-": 1366
-			},
-			"sources": {
-				"wikidata": 452,
-				"csv": 0,
-				"config": 0,
-				"-": 1161
-			}
-		},
 		{
 			"date": "2022-08-15T06:13:50Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 60,
 				"-": 865
+			}
+		},
+		{
+			"date": "2025-06-02T13:51:48Z",
+			"values": {
+				"F": 89,
+				"M": 309,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 1222
+			},
+			"sources": {
+				"wikidata": 705,
+				"csv": 0,
+				"config": 60,
+				"-": 866
 			}
 		}
 	]

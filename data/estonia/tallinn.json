@@ -11,29 +11,9 @@
 		"id": "tallinn",
 		"name": "🇪🇪 Tallinn, Estonia",
 		"url": "https://tallinn.equalstreetnames.eu/",
-		"update": "2025-06-02T05:17:43.331Z"
+		"update": "2025-07-02T05:18:47.058Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-03-31T12:30:25Z",
-			"values": {
-				"F": 2,
-				"M": 45,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 1721
-			},
-			"sources": {
-				"wikidata": 69,
-				"csv": 0,
-				"config": 0,
-				"-": 1699
-			}
-		},
 		{
 			"date": "2022-04-01T08:04:08Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 1734
+			}
+		},
+		{
+			"date": "2025-06-02T18:26:57Z",
+			"values": {
+				"F": 2,
+				"M": 45,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1762
+			},
+			"sources": {
+				"wikidata": 70,
+				"csv": 0,
+				"config": 0,
+				"-": 1739
 			}
 		}
 	]
