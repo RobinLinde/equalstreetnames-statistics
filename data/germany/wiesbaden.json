@@ -11,7 +11,7 @@
 		"id": "wiesbaden",
 		"name": "🇩🇪 Wiesbaden, Germany",
 		"url": "https://wiesbaden.equalstreetnames.eu/",
-		"update": "2025-07-02T05:20:52.970Z"
+		"update": "2025-08-02T05:21:54.821Z"
 	},
 	"statistics": [
 		{
@@ -572,6 +572,26 @@
 				"csv": 97,
 				"config": 0,
 				"-": 1124
+			}
+		},
+		{
+			"date": "2025-07-02T17:17:58Z",
+			"values": {
+				"F": 48,
+				"M": 523,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 1438
+			},
+			"sources": {
+				"wikidata": 791,
+				"csv": 97,
+				"config": 0,
+				"-": 1123
 			}
 		}
 	]

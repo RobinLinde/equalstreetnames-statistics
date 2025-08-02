@@ -11,29 +11,9 @@
 		"id": "rastede",
 		"name": "🇩🇪 Rastede, Germany",
 		"url": "https://rastede.equalstreetnames.eu/",
-		"update": "2025-07-02T05:20:46.842Z"
+		"update": "2025-08-02T05:21:50.232Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-11-24T17:42:30Z",
-			"values": {
-				"F": 4,
-				"M": 43,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 472
-			},
-			"sources": {
-				"wikidata": 56,
-				"csv": 0,
-				"config": 0,
-				"-": 463
-			}
-		},
 		{
 			"date": "2022-01-09T19:25:04Z",
 			"values": {
@@ -596,6 +576,26 @@
 		},
 		{
 			"date": "2025-06-02T16:54:16Z",
+			"values": {
+				"F": 9,
+				"M": 76,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 449
+			},
+			"sources": {
+				"wikidata": 94,
+				"csv": 0,
+				"config": 0,
+				"-": 440
+			}
+		},
+		{
+			"date": "2025-07-02T16:53:10Z",
 			"values": {
 				"F": 9,
 				"M": 76,

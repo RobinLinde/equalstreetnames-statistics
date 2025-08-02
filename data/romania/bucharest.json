@@ -4,14 +4,14 @@
 		"countryId": "romania",
 		"geo": {
 			"center": [
-				26.098724547553513,
-				44.45092552400611
+				26.09943792274448,
+				44.450557470583796
 			]
 		},
 		"id": "bucharest",
 		"name": "🇷🇴 Bucharest, Romania",
 		"url": "https://bucharest.equalstreetnames.eu/",
-		"update": "2025-07-02T05:22:22.480Z"
+		"update": "2025-08-02T05:23:01.763Z"
 	},
 	"statistics": [
 		{
@@ -332,6 +332,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 4996
+			}
+		},
+		{
+			"date": "2025-08-02T03:02:12Z",
+			"values": {
+				"F": 1,
+				"M": 5,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 4999
+			},
+			"sources": {
+				"wikidata": 8,
+				"csv": 0,
+				"config": 0,
+				"-": 4997
 			}
 		}
 	]
