@@ -4,14 +4,14 @@
 		"countryId": "australia",
 		"geo": {
 			"center": [
-				115.747127876923,
-				-32.046327177183834
+				115.7473337055699,
+				-32.04646875479279
 			]
 		},
 		"id": "fremantle",
 		"name": "🇦🇺 Fremantle, Australia",
 		"url": "https://fremantle.equalstreetnames.org/",
-		"update": "2025-08-02T05:18:35.423Z"
+		"update": "2025-09-02T05:13:39.459Z"
 	},
 	"statistics": [
 		{
@@ -532,6 +532,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 483
+			}
+		},
+		{
+			"date": "2025-08-02T22:10:11Z",
+			"values": {
+				"F": 5,
+				"M": 54,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 505
+			},
+			"sources": {
+				"wikidata": 80,
+				"csv": 0,
+				"config": 0,
+				"-": 484
 			}
 		}
 	]

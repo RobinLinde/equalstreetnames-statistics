@@ -11,29 +11,9 @@
 		"id": "sanfrancisco",
 		"name": "🇺🇸 San Francisco, USA",
 		"url": "https://sanfrancisco.equalstreetnames.org/",
-		"update": "2025-08-02T05:24:06.743Z"
+		"update": "2025-09-02T05:21:12.586Z"
 	},
 	"statistics": [
-		{
-			"date": "2021-11-02T04:49:32Z",
-			"values": {
-				"F": 8,
-				"M": 125,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 2132
-			},
-			"sources": {
-				"wikidata": 146,
-				"csv": 0,
-				"config": 0,
-				"-": 2119
-			}
-		},
 		{
 			"date": "2021-12-02T04:50:17Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 2198
+			}
+		},
+		{
+			"date": "2025-09-02T04:46:09Z",
+			"values": {
+				"F": 9,
+				"M": 130,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 2212
+			},
+			"sources": {
+				"wikidata": 155,
+				"csv": 0,
+				"config": 0,
+				"-": 2196
 			}
 		}
 	]

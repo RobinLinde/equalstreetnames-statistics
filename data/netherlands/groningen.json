@@ -11,7 +11,7 @@
 		"id": "groningen",
 		"name": "🇳🇱 Groningen, The Netherlands",
 		"url": "https://groningen.equalstreetnames.eu/",
-		"update": "2025-08-02T05:22:31.383Z"
+		"update": "2025-09-02T05:19:01.141Z"
 	},
 	"statistics": [
 		{
@@ -278,26 +278,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 1196
-			}
-		},
-		{
-			"date": "2021-08-04T02:16:35Z",
-			"values": {
-				"F": 47,
-				"M": 334,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 1380
-			},
-			"sources": {
-				"wikidata": 602,
-				"csv": 0,
-				"config": 0,
-				"-": 1159
 			}
 		},
 		{
@@ -878,6 +858,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 724
+			}
+		},
+		{
+			"date": "2025-09-01T13:09:34Z",
+			"values": {
+				"F": 50,
+				"M": 373,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1394
+			},
+			"sources": {
+				"wikidata": 1083,
+				"csv": 0,
+				"config": 0,
+				"-": 734
 			}
 		}
 	]
