@@ -11,29 +11,9 @@
 		"id": "tartu",
 		"name": "🇪🇪 Tartu, Estonia",
 		"url": "https://tartu.equalstreetnames.eu/",
-		"update": "2025-09-02T05:16:09.051Z"
+		"update": "2025-10-02T05:14:02.739Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-09-02T19:02:41Z",
-			"values": {
-				"F": 1,
-				"M": 36,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 506
-			},
-			"sources": {
-				"wikidata": 39,
-				"csv": 0,
-				"config": 0,
-				"-": 504
-			}
-		},
 		{
 			"date": "2022-10-01T11:30:21Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 518
+			}
+		},
+		{
+			"date": "2025-09-02T19:14:21Z",
+			"values": {
+				"F": 1,
+				"M": 36,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 521
+			},
+			"sources": {
+				"wikidata": 39,
+				"csv": 0,
+				"config": 0,
+				"-": 519
 			}
 		}
 	]

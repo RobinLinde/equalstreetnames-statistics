@@ -11,29 +11,9 @@
 		"id": "vienna",
 		"name": "🇦🇹 Vienna, Austria",
 		"url": "https://vienna.equalstreetnames.eu/",
-		"update": "2025-09-02T05:13:45.710Z"
+		"update": "2025-10-02T05:12:17.161Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-11-02T03:24:44Z",
-			"values": {
-				"F": 80,
-				"M": 329,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 4,
-				"?": 0,
-				"-": 6890
-			},
-			"sources": {
-				"wikidata": 553,
-				"csv": 0,
-				"config": 0,
-				"-": 6750
-			}
-		},
 		{
 			"date": "2022-12-02T02:24:29Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 6561
+			}
+		},
+		{
+			"date": "2025-10-02T02:26:12Z",
+			"values": {
+				"F": 136,
+				"M": 547,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 4,
+				"?": 0,
+				"-": 6755
+			},
+			"sources": {
+				"wikidata": 892,
+				"csv": 0,
+				"config": 0,
+				"-": 6550
 			}
 		}
 	]

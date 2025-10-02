@@ -11,7 +11,7 @@
 		"id": "assen",
 		"name": "🇳🇱 Assen, The Netherlands",
 		"url": "https://assen.equalstreetnames.eu/",
-		"update": "2025-09-02T05:18:50.781Z"
+		"update": "2025-10-02T05:16:01.467Z"
 	},
 	"statistics": [
 		{
@@ -298,26 +298,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 488
-			}
-		},
-		{
-			"date": "2021-12-01T12:22:39Z",
-			"values": {
-				"F": 26,
-				"M": 174,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 781
-			},
-			"sources": {
-				"wikidata": 524,
-				"csv": 0,
-				"config": 0,
-				"-": 457
 			}
 		},
 		{
@@ -898,6 +878,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 385
+			}
+		},
+		{
+			"date": "2025-10-01T12:47:34Z",
+			"values": {
+				"F": 26,
+				"M": 175,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 819
+			},
+			"sources": {
+				"wikidata": 634,
+				"csv": 0,
+				"config": 0,
+				"-": 386
 			}
 		}
 	]

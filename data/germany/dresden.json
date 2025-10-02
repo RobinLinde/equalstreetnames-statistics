@@ -11,29 +11,9 @@
 		"id": "dresden",
 		"name": "🇩🇪 Dresden, Germany",
 		"url": "https://dresden.equalstreetnames.eu/",
-		"update": "2025-09-02T05:16:44.300Z"
+		"update": "2025-10-02T05:14:28.397Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-02-02T13:20:38Z",
-			"values": {
-				"F": 105,
-				"M": 760,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 4,
-				"?": 0,
-				"-": 2415
-			},
-			"sources": {
-				"wikidata": 791,
-				"csv": 111,
-				"config": 0,
-				"-": 2384
-			}
-		},
 		{
 			"date": "2022-03-02T13:32:56Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 124,
 				"config": 0,
 				"-": 1690
+			}
+		},
+		{
+			"date": "2025-09-02T13:32:51Z",
+			"values": {
+				"F": 113,
+				"M": 876,
+				"FX": 1,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 8,
+				"?": 1,
+				"-": 2445
+			},
+			"sources": {
+				"wikidata": 1634,
+				"csv": 124,
+				"config": 0,
+				"-": 1688
 			}
 		}
 	]
