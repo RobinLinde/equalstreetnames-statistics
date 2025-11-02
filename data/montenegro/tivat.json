@@ -11,29 +11,9 @@
 		"id": "tivat",
 		"name": "🇲🇪 Tivat, Montenegro",
 		"url": "https://tivat.equalstreetnames.eu/",
-		"update": "2025-10-02T05:15:53.410Z"
+		"update": "2025-11-02T05:16:33.794Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-10-01T13:01:55Z",
-			"values": {
-				"F": 0,
-				"M": 7,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 155
-			},
-			"sources": {
-				"wikidata": 7,
-				"csv": 0,
-				"config": 0,
-				"-": 155
-			}
-		},
 		{
 			"date": "2022-10-02T19:37:47Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 171
+			}
+		},
+		{
+			"date": "2025-10-02T19:33:29Z",
+			"values": {
+				"F": 0,
+				"M": 7,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 172
+			},
+			"sources": {
+				"wikidata": 7,
+				"csv": 0,
+				"config": 0,
+				"-": 172
 			}
 		}
 	]

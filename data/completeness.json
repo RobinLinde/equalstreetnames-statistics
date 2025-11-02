@@ -1,6 +1,6 @@
 {
 	"meta": {
-		"update": "2025-10-02T05:12:07.898Z"
+		"update": "2025-11-02T05:12:48.238Z"
 	},
 	"cities": [
 		{
@@ -37,11 +37,11 @@
 				"name": "🇦🇹 Vienna, Austria",
 				"url": "https://vienna.equalstreetnames.eu/"
 			},
-			"total": 7442,
-			"unmapped": 6550,
-			"unmappedPercentage": 88.01397473797367,
-			"mapped": 892,
-			"mappedPercentage": 11.986025262026336
+			"total": 7441,
+			"unmapped": 6548,
+			"unmappedPercentage": 87.99892487568876,
+			"mapped": 893,
+			"mappedPercentage": 12.00107512431125
 		},
 		{
 			"city": {
@@ -57,11 +57,11 @@
 				"name": "🇧🇾 Minsk, Belarus",
 				"url": "https://minsk.equalstreetnames.org/"
 			},
-			"total": 1474,
-			"unmapped": 959,
-			"unmappedPercentage": 65.06105834464043,
+			"total": 1472,
+			"unmapped": 957,
+			"unmappedPercentage": 65.01358695652173,
 			"mapped": 515,
-			"mappedPercentage": 34.93894165535957
+			"mappedPercentage": 34.98641304347826
 		},
 		{
 			"city": {
@@ -97,11 +97,11 @@
 				"name": "🇧🇪 Braine-l'Alleud, Belgium",
 				"url": "https://braine-lalleud.equalstreetnames.be/"
 			},
-			"total": 684,
-			"unmapped": 548,
-			"unmappedPercentage": 80.11695906432749,
+			"total": 683,
+			"unmapped": 547,
+			"unmappedPercentage": 80.08784773060029,
 			"mapped": 136,
-			"mappedPercentage": 19.883040935672515
+			"mappedPercentage": 19.91215226939971
 		},
 		{
 			"city": {
@@ -117,11 +117,11 @@
 				"name": "🇧🇪 Brugge, Belgium",
 				"url": "https://brugge.equalstreetnames.be/"
 			},
-			"total": 1587,
-			"unmapped": 1123,
-			"unmappedPercentage": 70.76244486452426,
+			"total": 1588,
+			"unmapped": 1124,
+			"unmappedPercentage": 70.7808564231738,
 			"mapped": 464,
-			"mappedPercentage": 29.23755513547574
+			"mappedPercentage": 29.219143576826195
 		},
 		{
 			"city": {
@@ -129,19 +129,19 @@
 				"countryId": "belgium",
 				"geo": {
 					"center": [
-						4.328015936355485,
-						50.830474672082694
+						4.3277833744262395,
+						50.830499926259435
 					]
 				},
 				"id": "brussels",
 				"name": "🇧🇪 Brussels, Belgium",
 				"url": "https://equalstreetnames.brussels/"
 			},
-			"total": 5599,
-			"unmapped": 2743,
-			"unmappedPercentage": 48.990891230576885,
-			"mapped": 2856,
-			"mappedPercentage": 51.00910876942311
+			"total": 5600,
+			"unmapped": 2636,
+			"unmappedPercentage": 47.07142857142857,
+			"mapped": 2964,
+			"mappedPercentage": 52.92857142857142
 		},
 		{
 			"city": {
@@ -158,10 +158,10 @@
 				"url": "https://gent.equalstreetnames.be/"
 			},
 			"total": 3116,
-			"unmapped": 2150,
-			"unmappedPercentage": 68.9987163029525,
-			"mapped": 966,
-			"mappedPercentage": 31.001283697047498
+			"unmapped": 2151,
+			"unmappedPercentage": 69.03080872913992,
+			"mapped": 965,
+			"mappedPercentage": 30.969191270860076
 		},
 		{
 			"city": {
@@ -177,11 +177,11 @@
 				"name": "🇧🇪 Halle, Belgium",
 				"url": "https://halle.equalstreetnames.be/"
 			},
-			"total": 550,
-			"unmapped": 500,
-			"unmappedPercentage": 90.9090909090909,
+			"total": 551,
+			"unmapped": 501,
+			"unmappedPercentage": 90.92558983666062,
 			"mapped": 50,
-			"mappedPercentage": 9.090909090909092
+			"mappedPercentage": 9.074410163339383
 		},
 		{
 			"city": {
@@ -197,11 +197,11 @@
 				"name": "🇧🇪 Leuven, Belgium",
 				"url": "https://leuven.equalstreetnames.be/"
 			},
-			"total": 1183,
-			"unmapped": 1050,
-			"unmappedPercentage": 88.75739644970415,
+			"total": 1182,
+			"unmapped": 1049,
+			"unmappedPercentage": 88.74788494077835,
 			"mapped": 133,
-			"mappedPercentage": 11.242603550295858
+			"mappedPercentage": 11.252115059221659
 		},
 		{
 			"city": {
@@ -217,11 +217,11 @@
 				"name": "🇧🇪 Liège, Belgium",
 				"url": "https://liege.equalstreetnames.be/"
 			},
-			"total": 1927,
-			"unmapped": 1838,
-			"unmappedPercentage": 95.38142189932537,
+			"total": 1928,
+			"unmapped": 1839,
+			"unmappedPercentage": 95.38381742738589,
 			"mapped": 89,
-			"mappedPercentage": 4.618578100674624
+			"mappedPercentage": 4.616182572614108
 		},
 		{
 			"city": {
@@ -237,11 +237,11 @@
 				"name": "🇧🇪 Mons, Belgium",
 				"url": "https://mons.equalstreetnames.be/"
 			},
-			"total": 1227,
-			"unmapped": 398,
-			"unmappedPercentage": 32.43683781581092,
+			"total": 1229,
+			"unmapped": 400,
+			"unmappedPercentage": 32.546786004882016,
 			"mapped": 829,
-			"mappedPercentage": 67.56316218418907
+			"mappedPercentage": 67.45321399511798
 		},
 		{
 			"city": {
@@ -277,11 +277,11 @@
 				"name": "🇧🇪 Nivelles, Belgium",
 				"url": "https://nivelles.equalstreetnames.be/"
 			},
-			"total": 475,
-			"unmapped": 453,
-			"unmappedPercentage": 95.36842105263158,
+			"total": 476,
+			"unmapped": 454,
+			"unmappedPercentage": 95.37815126050421,
 			"mapped": 22,
-			"mappedPercentage": 4.631578947368421
+			"mappedPercentage": 4.621848739495799
 		},
 		{
 			"city": {
@@ -338,10 +338,10 @@
 				"url": "https://copenhagen.equalstreetnames.eu/"
 			},
 			"total": 2727,
-			"unmapped": 707,
-			"unmappedPercentage": 25.925925925925924,
-			"mapped": 2020,
-			"mappedPercentage": 74.07407407407408
+			"unmapped": 701,
+			"unmappedPercentage": 25.705903923725703,
+			"mapped": 2026,
+			"mappedPercentage": 74.2940960762743
 		},
 		{
 			"city": {
@@ -377,11 +377,11 @@
 				"name": "🇪🇪 Tallinn, Estonia",
 				"url": "https://tallinn.equalstreetnames.eu/"
 			},
-			"total": 1810,
-			"unmapped": 1740,
-			"unmappedPercentage": 96.13259668508287,
+			"total": 1801,
+			"unmapped": 1731,
+			"unmappedPercentage": 96.11327040533038,
 			"mapped": 70,
-			"mappedPercentage": 3.867403314917127
+			"mappedPercentage": 3.886729594669628
 		},
 		{
 			"city": {
@@ -409,19 +409,19 @@
 				"countryId": "france",
 				"geo": {
 					"center": [
-						2.3639014304347823,
-						48.84799397664304
+						2.3639265465656565,
+						48.847970739999965
 					]
 				},
 				"id": "paris",
 				"name": "🇫🇷 Paris, France",
 				"url": "https://paris.equalstreetnames.eu/"
 			},
-			"total": 7138,
-			"unmapped": 1779,
-			"unmappedPercentage": 24.922947604370975,
-			"mapped": 5359,
-			"mappedPercentage": 75.07705239562902
+			"total": 7149,
+			"unmapped": 1782,
+			"unmappedPercentage": 24.92656315568611,
+			"mapped": 5367,
+			"mappedPercentage": 75.07343684431389
 		},
 		{
 			"city": {
@@ -449,19 +449,19 @@
 				"countryId": "germany",
 				"geo": {
 					"center": [
-						13.431297945117096,
-						52.515552605970015
+						13.430958226949446,
+						52.515411286542104
 					]
 				},
 				"id": "berlin",
 				"name": "🇩🇪 Berlin, Germany",
 				"url": "https://equalstreetnames-berlin.openstreetmap.de/"
 			},
-			"total": 11111,
-			"unmapped": 1567,
-			"unmappedPercentage": 14.103141031410313,
-			"mapped": 9544,
-			"mappedPercentage": 85.89685896858968
+			"total": 11116,
+			"unmapped": 1576,
+			"unmappedPercentage": 14.177761784814683,
+			"mapped": 9540,
+			"mappedPercentage": 85.82223821518532
 		},
 		{
 			"city": {
@@ -537,11 +537,11 @@
 				"name": "🇩🇪 Freising, Germany",
 				"url": "https://freising.equalstreetnames.eu/"
 			},
-			"total": 475,
-			"unmapped": 269,
-			"unmappedPercentage": 56.631578947368425,
+			"total": 476,
+			"unmapped": 270,
+			"unmappedPercentage": 56.72268907563025,
 			"mapped": 206,
-			"mappedPercentage": 43.368421052631575
+			"mappedPercentage": 43.27731092436975
 		},
 		{
 			"city": {
@@ -598,10 +598,10 @@
 				"url": "https://kaiserslautern.equalstreetnames.eu/"
 			},
 			"total": 986,
-			"unmapped": 789,
-			"unmappedPercentage": 80.02028397565924,
-			"mapped": 197,
-			"mappedPercentage": 19.97971602434077
+			"unmapped": 788,
+			"unmappedPercentage": 79.91886409736308,
+			"mapped": 198,
+			"mappedPercentage": 20.08113590263692
 		},
 		{
 			"city": {
@@ -617,11 +617,11 @@
 				"name": "🇩🇪 Leipzig, Germany",
 				"url": "https://leipzig.equalstreetnames.eu/"
 			},
-			"total": 3267,
-			"unmapped": 2158,
-			"unmappedPercentage": 66.05448423630241,
+			"total": 3271,
+			"unmapped": 2162,
+			"unmappedPercentage": 66.09599510852951,
 			"mapped": 1109,
-			"mappedPercentage": 33.94551576369758
+			"mappedPercentage": 33.90400489147049
 		},
 		{
 			"city": {
@@ -637,11 +637,11 @@
 				"name": "🇩🇪 Frankfurt am Main, Germany",
 				"url": "https://frankfurt.equalstreetnames.eu/"
 			},
-			"total": 3564,
-			"unmapped": 2536,
-			"unmappedPercentage": 71.15600448933782,
+			"total": 3566,
+			"unmapped": 2538,
+			"unmappedPercentage": 71.17218171620864,
 			"mapped": 1028,
-			"mappedPercentage": 28.84399551066218
+			"mappedPercentage": 28.827818283791363
 		},
 		{
 			"city": {
@@ -657,11 +657,11 @@
 				"name": "🇩🇪 Mainz, Germany",
 				"url": "https://mainz.equalstreetnames.eu/"
 			},
-			"total": 1549,
-			"unmapped": 993,
-			"unmappedPercentage": 64.10587475790834,
-			"mapped": 556,
-			"mappedPercentage": 35.894125242091675
+			"total": 1546,
+			"unmapped": 986,
+			"unmappedPercentage": 63.77749029754204,
+			"mapped": 560,
+			"mappedPercentage": 36.222509702457955
 		},
 		{
 			"city": {
@@ -677,11 +677,11 @@
 				"name": "🇩🇪 Munich, Germany",
 				"url": "https://munich.equalstreetnames.eu/"
 			},
-			"total": 6525,
-			"unmapped": 5377,
-			"unmappedPercentage": 82.40613026819923,
-			"mapped": 1148,
-			"mappedPercentage": 17.593869731800766
+			"total": 6527,
+			"unmapped": 5328,
+			"unmappedPercentage": 81.6301516776467,
+			"mapped": 1199,
+			"mappedPercentage": 18.369848322353302
 		},
 		{
 			"city": {
@@ -697,11 +697,11 @@
 				"name": "🇩🇪 Oldenburg, Germany",
 				"url": "https://oldenburg.equalstreetnames.eu/"
 			},
-			"total": 1560,
-			"unmapped": 1496,
-			"unmappedPercentage": 95.8974358974359,
+			"total": 1561,
+			"unmapped": 1497,
+			"unmappedPercentage": 95.90006406149904,
 			"mapped": 64,
-			"mappedPercentage": 4.102564102564102
+			"mappedPercentage": 4.099935938500961
 		},
 		{
 			"city": {
@@ -737,11 +737,11 @@
 				"name": "🇩🇪 Wiesbaden, Germany",
 				"url": "https://wiesbaden.equalstreetnames.eu/"
 			},
-			"total": 2014,
-			"unmapped": 1126,
-			"unmappedPercentage": 55.908639523336646,
+			"total": 2015,
+			"unmapped": 1127,
+			"unmappedPercentage": 55.930521091811414,
 			"mapped": 888,
-			"mappedPercentage": 44.091360476663354
+			"mappedPercentage": 44.069478908188586
 		},
 		{
 			"city": {
@@ -777,11 +777,11 @@
 				"name": "🇭🇺 Budapest, Hungary",
 				"url": "https://budapest.equalstreetnames.eu/"
 			},
-			"total": 7288,
-			"unmapped": 6891,
-			"unmappedPercentage": 94.55268935236005,
-			"mapped": 397,
-			"mappedPercentage": 5.447310647639956
+			"total": 7290,
+			"unmapped": 6807,
+			"unmappedPercentage": 93.37448559670783,
+			"mapped": 483,
+			"mappedPercentage": 6.625514403292181
 		},
 		{
 			"city": {
@@ -797,11 +797,11 @@
 				"name": "🇮🇹 Bolzano, Italy",
 				"url": "https://bolzano.equalstreetnames.eu/"
 			},
-			"total": 500,
-			"unmapped": 317,
-			"unmappedPercentage": 63.4,
+			"total": 501,
+			"unmapped": 318,
+			"unmappedPercentage": 63.47305389221557,
 			"mapped": 183,
-			"mappedPercentage": 36.6
+			"mappedPercentage": 36.52694610778443
 		},
 		{
 			"city": {
@@ -837,11 +837,11 @@
 				"name": "🇲🇪 Tivat, Montenegro",
 				"url": "https://tivat.equalstreetnames.eu/"
 			},
-			"total": 178,
-			"unmapped": 171,
-			"unmappedPercentage": 96.06741573033707,
+			"total": 179,
+			"unmapped": 172,
+			"unmappedPercentage": 96.08938547486034,
 			"mapped": 7,
-			"mappedPercentage": 3.932584269662921
+			"mappedPercentage": 3.910614525139665
 		},
 		{
 			"city": {
@@ -957,11 +957,11 @@
 				"name": "🇵🇱 Warsaw, Poland",
 				"url": "https://warsaw.equalstreetnames.eu/"
 			},
-			"total": 5820,
+			"total": 5822,
 			"unmapped": 3902,
-			"unmappedPercentage": 67.0446735395189,
-			"mapped": 1918,
-			"mappedPercentage": 32.955326460481096
+			"unmappedPercentage": 67.02164204740639,
+			"mapped": 1920,
+			"mappedPercentage": 32.97835795259361
 		},
 		{
 			"city": {
@@ -997,11 +997,11 @@
 				"name": "🇵🇹 Lisbon, Portugal",
 				"url": "https://lisbon.equalstreetnames.eu/"
 			},
-			"total": 4258,
-			"unmapped": 3839,
-			"unmappedPercentage": 90.15969938938468,
+			"total": 4262,
+			"unmapped": 3843,
+			"unmappedPercentage": 90.16893477240731,
 			"mapped": 419,
-			"mappedPercentage": 9.840300610615312
+			"mappedPercentage": 9.83106522759268
 		},
 		{
 			"city": {
@@ -1017,11 +1017,11 @@
 				"name": "🇷🇴 Bucharest, Romania",
 				"url": "https://bucharest.equalstreetnames.eu/"
 			},
-			"total": 5011,
-			"unmapped": 5003,
-			"unmappedPercentage": 99.84035122729993,
+			"total": 5014,
+			"unmapped": 5006,
+			"unmappedPercentage": 99.84044674910251,
 			"mapped": 8,
-			"mappedPercentage": 0.15964877270005987
+			"mappedPercentage": 0.15955325089748704
 		},
 		{
 			"city": {
@@ -1037,11 +1037,11 @@
 				"name": "🇷🇸 Belgrade, Serbia",
 				"url": "https://naziviulica.openstreetmap.rs/"
 			},
-			"total": 4372,
-			"unmapped": 1654,
-			"unmappedPercentage": 37.831655992680695,
-			"mapped": 2718,
-			"mappedPercentage": 62.16834400731931
+			"total": 4375,
+			"unmapped": 1625,
+			"unmappedPercentage": 37.142857142857146,
+			"mapped": 2750,
+			"mappedPercentage": 62.857142857142854
 		},
 		{
 			"city": {
@@ -1077,11 +1077,11 @@
 				"name": "🇿🇦 Cape Town, South Africa",
 				"url": "https://cape-town.equalstreetnames.org/"
 			},
-			"total": 23510,
-			"unmapped": 23373,
-			"unmappedPercentage": 99.41726924712889,
+			"total": 23560,
+			"unmapped": 23423,
+			"unmappedPercentage": 99.41850594227503,
 			"mapped": 137,
-			"mappedPercentage": 0.5827307528711188
+			"mappedPercentage": 0.5814940577249575
 		},
 		{
 			"city": {
@@ -1117,11 +1117,11 @@
 				"name": "🇪🇸 Madrid, Spain",
 				"url": "https://madrid.equalstreetnames.eu/"
 			},
-			"total": 9259,
-			"unmapped": 7818,
-			"unmappedPercentage": 84.43676422939842,
+			"total": 9265,
+			"unmapped": 7824,
+			"unmappedPercentage": 84.44684295736643,
 			"mapped": 1441,
-			"mappedPercentage": 15.563235770601578
+			"mappedPercentage": 15.553157042633567
 		},
 		{
 			"city": {
@@ -1157,11 +1157,11 @@
 				"name": "🇨🇭 Bern, Switzerland",
 				"url": "https://bern.equalstreetnames.eu/"
 			},
-			"total": 912,
+			"total": 913,
 			"unmapped": 698,
-			"unmappedPercentage": 76.53508771929825,
-			"mapped": 214,
-			"mappedPercentage": 23.464912280701753
+			"unmappedPercentage": 76.45125958378969,
+			"mapped": 215,
+			"mappedPercentage": 23.548740416210297
 		},
 		{
 			"city": {
@@ -1177,11 +1177,11 @@
 				"name": "🇨🇭 Lausanne, Switzerland",
 				"url": "https://lausanne.equalstreetnames.eu/"
 			},
-			"total": 706,
-			"unmapped": 501,
-			"unmappedPercentage": 70.96317280453258,
+			"total": 707,
+			"unmapped": 502,
+			"unmappedPercentage": 71.004243281471,
 			"mapped": 205,
-			"mappedPercentage": 29.036827195467424
+			"mappedPercentage": 28.995756718528998
 		},
 		{
 			"city": {
@@ -1217,11 +1217,11 @@
 				"name": "🇨🇭 Zurich, Switzerland",
 				"url": "https://zurich.equalstreetnames.eu/"
 			},
-			"total": 2666,
-			"unmapped": 2014,
-			"unmappedPercentage": 75.54388597149287,
+			"total": 2665,
+			"unmapped": 2013,
+			"unmappedPercentage": 75.53470919324577,
 			"mapped": 652,
-			"mappedPercentage": 24.456114028507127
+			"mappedPercentage": 24.465290806754222
 		},
 		{
 			"city": {
@@ -1249,8 +1249,8 @@
 				"countryId": "usa",
 				"geo": {
 					"center": [
-						-122.55535693537988,
-						37.81348265477585
+						-122.55521173690336,
+						37.813380187049674
 					]
 				},
 				"id": "sanfrancisco",
@@ -1258,10 +1258,10 @@
 				"url": "https://sanfrancisco.equalstreetnames.org/"
 			},
 			"total": 2352,
-			"unmapped": 2197,
-			"unmappedPercentage": 93.40986394557824,
-			"mapped": 155,
-			"mappedPercentage": 6.5901360544217695
+			"unmapped": 2194,
+			"unmappedPercentage": 93.28231292517006,
+			"mapped": 158,
+			"mappedPercentage": 6.717687074829932
 		}
 	]
 }

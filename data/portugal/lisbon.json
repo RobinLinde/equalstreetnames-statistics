@@ -11,7 +11,7 @@
 		"id": "lisbon",
 		"name": "🇵🇹 Lisbon, Portugal",
 		"url": "https://lisbon.equalstreetnames.eu/",
-		"update": "2025-10-02T05:16:37.337Z"
+		"update": "2025-11-02T05:17:19.877Z"
 	},
 	"statistics": [
 		{
@@ -412,6 +412,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 3839
+			}
+		},
+		{
+			"date": "2025-11-02T02:24:09Z",
+			"values": {
+				"F": 38,
+				"M": 264,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 3960
+			},
+			"sources": {
+				"wikidata": 419,
+				"csv": 0,
+				"config": 0,
+				"-": 3843
 			}
 		}
 	]

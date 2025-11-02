@@ -11,29 +11,9 @@
 		"id": "chester-le-street",
 		"name": "🇬🇧 Chester-le-Street, United Kingdom",
 		"url": "https://chester-le-street.equalstreetnames.org/",
-		"update": "2025-10-02T05:17:41.169Z"
+		"update": "2025-11-02T05:18:24.147Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-11-02T04:58:54Z",
-			"values": {
-				"F": 1,
-				"M": 11,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 312
-			},
-			"sources": {
-				"wikidata": 133,
-				"csv": 0,
-				"config": 0,
-				"-": 191
-			}
-		},
 		{
 			"date": "2022-12-02T04:14:11Z",
 			"values": {
@@ -596,6 +576,26 @@
 		},
 		{
 			"date": "2025-10-02T04:28:42Z",
+			"values": {
+				"F": 1,
+				"M": 11,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 313
+			},
+			"sources": {
+				"wikidata": 133,
+				"csv": 0,
+				"config": 0,
+				"-": 192
+			}
+		},
+		{
+			"date": "2025-11-02T04:29:34Z",
 			"values": {
 				"F": 1,
 				"M": 11,

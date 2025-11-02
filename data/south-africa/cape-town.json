@@ -11,29 +11,9 @@
 		"id": "cape-town",
 		"name": "🇿🇦 Cape Town, South Africa",
 		"url": "https://cape-town.equalstreetnames.org/",
-		"update": "2025-10-02T05:16:57.447Z"
+		"update": "2025-11-02T05:17:40.022Z"
 	},
 	"statistics": [
-		{
-			"date": "2022-10-28T07:42:24Z",
-			"values": {
-				"F": 2,
-				"M": 19,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 22934
-			},
-			"sources": {
-				"wikidata": 42,
-				"csv": 0,
-				"config": 0,
-				"-": 22913
-			}
-		},
 		{
 			"date": "2022-10-28T07:50:51Z",
 			"values": {
@@ -612,6 +592,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 23373
+			}
+		},
+		{
+			"date": "2025-10-02T20:22:39Z",
+			"values": {
+				"F": 7,
+				"M": 41,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 23512
+			},
+			"sources": {
+				"wikidata": 137,
+				"csv": 0,
+				"config": 0,
+				"-": 23423
 			}
 		}
 	]
