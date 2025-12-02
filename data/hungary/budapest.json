@@ -11,7 +11,7 @@
 		"id": "budapest",
 		"name": "🇭🇺 Budapest, Hungary",
 		"url": "https://budapest.equalstreetnames.eu/",
-		"update": "2025-11-02T05:16:19.479Z"
+		"update": "2025-12-02T05:19:57.136Z"
 	},
 	"statistics": [
 		{
@@ -412,6 +412,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 6807
+			}
+		},
+		{
+			"date": "2025-11-02T23:44:31Z",
+			"values": {
+				"F": 34,
+				"M": 300,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 1,
+				"?": 0,
+				"-": 6957
+			},
+			"sources": {
+				"wikidata": 487,
+				"csv": 0,
+				"config": 0,
+				"-": 6805
 			}
 		}
 	]

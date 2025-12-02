@@ -11,7 +11,7 @@
 		"id": "mons",
 		"name": "🇧🇪 Mons, Belgium",
 		"url": "https://mons.equalstreetnames.be/",
-		"update": "2025-11-02T05:14:05.186Z"
+		"update": "2025-12-02T05:16:12.921Z"
 	},
 	"statistics": [
 		{
@@ -215,26 +215,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 1003
-			}
-		},
-		{
-			"date": "2023-01-01T04:37:48Z",
-			"values": {
-				"F": 31,
-				"M": 249,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 3,
-				"?": 0,
-				"-": 898
-			},
-			"sources": {
-				"wikidata": 311,
-				"csv": 0,
-				"config": 0,
-				"-": 870
 			}
 		},
 		{
@@ -812,6 +792,26 @@
 			},
 			"sources": {
 				"wikidata": 829,
+				"csv": 0,
+				"config": 0,
+				"-": 400
+			}
+		},
+		{
+			"date": "2025-12-01T05:04:19Z",
+			"values": {
+				"F": 34,
+				"M": 275,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 3,
+				"?": 1,
+				"-": 920
+			},
+			"sources": {
+				"wikidata": 833,
 				"csv": 0,
 				"config": 0,
 				"-": 400

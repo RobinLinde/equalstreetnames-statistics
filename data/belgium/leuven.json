@@ -11,7 +11,7 @@
 		"id": "leuven",
 		"name": "🇧🇪 Leuven, Belgium",
 		"url": "https://leuven.equalstreetnames.be/",
-		"update": "2025-11-02T05:13:50.522Z"
+		"update": "2025-12-02T05:15:48.579Z"
 	},
 	"statistics": [
 		{
@@ -229,26 +229,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 999
-			}
-		},
-		{
-			"date": "2022-12-01T03:51:29Z",
-			"values": {
-				"F": 10,
-				"M": 70,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 0,
-				"?": 0,
-				"-": 1030
-			},
-			"sources": {
-				"wikidata": 112,
-				"csv": 0,
-				"config": 0,
-				"-": 998
 			}
 		},
 		{
@@ -826,6 +806,26 @@
 			},
 			"sources": {
 				"wikidata": 133,
+				"csv": 0,
+				"config": 0,
+				"-": 1049
+			}
+		},
+		{
+			"date": "2025-12-01T04:34:24Z",
+			"values": {
+				"F": 13,
+				"M": 85,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 0,
+				"?": 0,
+				"-": 1080
+			},
+			"sources": {
+				"wikidata": 129,
 				"csv": 0,
 				"config": 0,
 				"-": 1049

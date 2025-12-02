@@ -11,7 +11,7 @@
 		"id": "stgallen",
 		"name": "🇨🇭 St. Gallen, Switzerland",
 		"url": "https://stgallen.equalstreetnames.eu/",
-		"update": "2025-11-02T05:18:14.525Z"
+		"update": "2025-12-02T05:23:06.474Z"
 	},
 	"statistics": [
 		{
@@ -93,26 +93,6 @@
 				"config": 0,
 				"event": 0,
 				"-": 738
-			}
-		},
-		{
-			"date": "2021-11-02T08:12:31Z",
-			"values": {
-				"F": 18,
-				"M": 174,
-				"FX": 0,
-				"MX": 0,
-				"X": 0,
-				"NB": 0,
-				"+": 5,
-				"?": 0,
-				"-": 746
-			},
-			"sources": {
-				"wikidata": 201,
-				"csv": 0,
-				"config": 0,
-				"-": 742
 			}
 		},
 		{
@@ -693,6 +673,26 @@
 				"csv": 0,
 				"config": 0,
 				"-": 796
+			}
+		},
+		{
+			"date": "2025-11-02T08:27:22Z",
+			"values": {
+				"F": 18,
+				"M": 174,
+				"FX": 0,
+				"MX": 0,
+				"X": 0,
+				"NB": 0,
+				"+": 5,
+				"?": 0,
+				"-": 807
+			},
+			"sources": {
+				"wikidata": 207,
+				"csv": 0,
+				"config": 0,
+				"-": 797
 			}
 		}
 	]
